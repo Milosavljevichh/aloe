@@ -1,7 +1,29 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
+@font-face {
+  font-family: quicksand;
+  src: url('/fonts/Quicksand/Quicksand-VariableFont_wght.ttf');
+}
+
+@font-face {
+  font-family: commissioner;
+  src: url('/fonts/Commissioner/Commissioner-VariableFont_FLAR\,VOLM\,slnt\,wght.ttf');
+}
+
+@font-face {
+  font-family: mono;
+  src: url('/fonts/Monomakh/Monomakh-Regular.ttf');
+}
+
 @custom-variant dark (&:is(.dark *));
+
+@theme {
+  --font-header: 'commissioner', 'Tahoma';
+  --font-text: 'quicksand', 'Verdana';
+
+  --font-test: 'mono';
+}
 
 @theme inline {
   --color-background: var(--background);
@@ -119,4 +141,8 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+main {
+  background-color: #F8F8FF;
 }

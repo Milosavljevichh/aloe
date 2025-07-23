@@ -3,7 +3,7 @@ export default function FeaturedProducts() {
         <section className="min-h-[80vh] max-w-6xl mx-auto py-20">
             <div className="flex items-center justify-center gap-14">
                 <hr className="relative w-full z-9 h-0.5 bg-black max-w-50 opacity-80" />
-                <h2 className="capitalize text-4xl max-w-fit font-medium">Danas Izdvajamo</h2>
+                <h2 className="capitalize text-4xl max-w-fit font-medium font-header pb-2">Danas Izdvajamo</h2>
                 <hr className="relative w-full z-9 h-0.5 bg-black max-w-50 opacity-80" />
             </div>
 
@@ -19,7 +19,7 @@ export default function FeaturedProducts() {
                                     className="w-full h-full object-cover object-center scale-110 transition-transform duration-300 group-hover:scale-105"
                                 />
                             </div>
-                            <h6 className="mt-2 ml-2 text-base font-medium">Forever Multi-Maca</h6>
+                            <h6 className="mt-2 ml-2 text-base font-medium font-text">Forever Multi-Maca</h6>
                         </a>
                         <a href="" className="w-1/2 rounded-md overflow-hidden group">
                             <div className="aspect-square overflow-hidden rounded-md">
@@ -29,7 +29,7 @@ export default function FeaturedProducts() {
                                     className="w-full h-full object-cover object-center scale-110 transition-transform duration-300 group-hover:scale-105"
                                 />
                             </div>
-                            <h6 className="mt-2 ml-2 text-base font-medium">Forever Absorbent-C</h6>
+                            <h6 className="mt-2 ml-2 text-base font-medium font-text">Forever Absorbent-C</h6>
                         </a>
 
                     </div>
@@ -41,7 +41,7 @@ export default function FeaturedProducts() {
                                 className="w-full h-full object-cover object-center scale-110 transition-transform duration-300 group-hover:scale-105"
                             />
                         </div>
-                        <h6 className="mt-2 ml-2 text-base font-medium">ARGI+ Voćni Napitak</h6>
+                        <h6 className="mt-2 ml-2 text-base font-medium font-text">ARGI+ Voćni Napitak</h6>
                     </a>
 
                 </div>
@@ -56,7 +56,7 @@ export default function FeaturedProducts() {
                                     className="w-full h-full object-cover object-bottom scale-110 transition-transform duration-300 group-hover:scale-105"
                                 />
                             </div>
-                            <h6 className="mt-2 ml-2 text-base font-medium">Aloe Ever-Shield Deodorant</h6>
+                            <h6 className="mt-2 ml-2 text-base font-medium font-text">Aloe Ever-Shield Deodorant</h6>
                         </a>
                         <a href="" className="w-1/2 rounded-md overflow-hidden group">
                             <div className="aspect-square overflow-hidden rounded-md">
@@ -66,7 +66,7 @@ export default function FeaturedProducts() {
                                     className="w-full h-full object-cover object-center scale-110 transition-transform duration-300 group-hover:scale-105"
                                 />
                             </div>
-                            <h6 className="mt-2 ml-2 text-base font-medium">Forever Bright Toothgel</h6>
+                            <h6 className="mt-2 ml-2 text-base font-medium font-text">Forever Bright Toothgel</h6>
                         </a>
 
                     </div>
@@ -78,7 +78,7 @@ export default function FeaturedProducts() {
                                 className="w-full h-full object-cover object-center scale-110 transition-transform duration-300 group-hover:scale-105"
                             />
                         </div>
-                        <h6 className="mt-2 ml-2 text-base font-medium">Skin Care System</h6>
+                        <h6 className="mt-2 ml-2 text-base font-medium font-text">Skin Care System</h6>
                     </a>
 
                 </div>
