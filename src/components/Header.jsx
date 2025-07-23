@@ -27,7 +27,7 @@ export default function Header() {
   const id = useId()
 
   return (
-    <header className="border-b px-4 md:px-6">
+    <header className="max-w-6xl border-b px-4 md:px-6 absolute top-0 left-1/2 -translate-x-1/2 w-[95vw] z-999">
       <div className="flex h-16 items-center justify-between gap-4">
         {/* Left side */}
         <div className="flex flex-1 items-center gap-2">
@@ -95,7 +95,7 @@ export default function Header() {
           </Popover>
           {/* Main nav */}
           <div className="flex flex-1 items-center gap-6 max-md:justify-between">
-            <a href="#" className="text-primary hover:text-primary/90">
+            <a href="#" className="text-[#F8F8FF] hover:text-primary/90">
               <Logo />
             </a>
             {/* Navigation menu */}
@@ -105,7 +105,7 @@ export default function Header() {
                   <NavigationMenuItem key={index}>
                     <NavigationMenuLink
                       href={link.href}
-                      className="text-muted-foreground hover:text-primary py-1.5 font-medium">
+                      className="text-[#F8F8FF] hover:text-primary py-1.5 font-medium">
                       {link.label}
                     </NavigationMenuLink>
                   </NavigationMenuItem>
@@ -116,11 +116,11 @@ export default function Header() {
             <div className="relative">
               <Input
                 id={id}
-                className="peer h-8 ps-8 pe-2"
+                className="peer h-8 ps-8 pe-2 text-[#F8F8FF] !placeholder-[#F8F8FF]"
                 placeholder="Search..."
                 type="search" />
               <div
-                className="text-muted-foreground/80 pointer-events-none absolute inset-y-0 start-0 flex items-center justify-center ps-2 peer-disabled:opacity-50">
+                className="text-[#F8F8FF] pointer-events-none absolute inset-y-0 start-0 flex items-center justify-center ps-2 peer-disabled:opacity-50">
                 <SearchIcon size={16} />
               </div>
             </div>
@@ -128,17 +128,14 @@ export default function Header() {
         </div>
         {/* Right side */}
         <div className="flex items-center gap-2 max-md:hidden">
-          <Button asChild variant="ghost" size="sm" className="text-sm">
-            <a href="#">Sign In</a>
-          </Button>
-          <Button asChild size="sm" className="text-sm">
+          {/* <Button asChild size="sm" className="text-sm">
             <a href="#">
               <span className="flex items-baseline gap-2">
                 Cart
                 <span className="text-primary-foreground/60 text-xs">2</span>
               </span>
             </a>
-          </Button>
+          </Button> */}
         </div>
       </div>
     </header>
