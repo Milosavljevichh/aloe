@@ -1,11 +1,13 @@
 export default function FeaturedProducts() {
     return (
         <section className="min-h-[80vh] max-w-6xl mx-auto py-20">
-            <div className="flex items-center justify-center gap-14">
-                <hr className="relative w-full z-9 h-0.5 bg-black max-w-50 opacity-80" />
-                <h2 className="capitalize text-4xl max-w-fit font-medium font-header pb-2">Danas Izdvajamo</h2>
-                <hr className="relative w-full z-9 h-0.5 bg-black max-w-50 opacity-80" />
+            <div className="flex items-center justify-center gap-6 flex-wrap">
+                <hr className="flex-1 h-0.5 bg-black opacity-30" />
+                <h2 className="text-4xl whitespace-nowrap font-medium font-header pb-2 opacity-95">Naša Preporuka</h2>
+                <hr className="flex-1 h-0.5 bg-black opacity-30" />
             </div>
+                <h2 className="text-xl whitespace-nowrap font-medium font-text pb-2 opacity-75 mx-auto w-fit">Pogledajte neke od pažljivo izabranih proizvoda</h2>
+
 
             <div className="w-full mt-20 flex gap-6">
                 <div className="w-1/2 overflow-hidden flex flex-col gap-5">
