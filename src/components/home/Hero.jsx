@@ -11,9 +11,8 @@ export default function Hero() {
             bg-[url(/aloe_product_cropped.png)]
             bg-cover
             bg-bottom bg-fixed
-            rounded-b-4xl
         ">
-            <div className="absolute inset-0 bg-black/50 z-0 h-full w-full rounded-b-4xl" />
+            <div className="absolute inset-0 bg-black/50 z-0 h-full w-full" />
             <svg className="z-90 absolute bottom-6 left-1/2 -translate-x-1/2"  xmlns="http://www.w3.org/2000/svg" width={36} height={36} fill={"#ffffff"} viewBox="0 0 24 24">Boxicons v3.0 https://boxicons.com | License  https://docs.boxicons.com/free<path d="m12 15.59-4.29-4.3-1.42 1.42 5.71 5.7 5.71-5.7-1.42-1.42z"></path><path d="m12 10.59-4.29-4.3-1.42 1.42 5.71 5.7 5.71-5.7-1.42-1.42z"></path></svg>
             {/* <svg className="z-90 absolute bottom-6 left-1/2 -translate-x-1/2"  xmlns="http://www.w3.org/2000/svg" width={36} height={36} fill={"#7bf1a8"} viewBox="0 0 24 24">Boxicons v3.0 https://boxicons.com | License  https://docs.boxicons.com/free<path d="m12 15.59-4.29-4.3-1.42 1.42 5.71 5.7 5.71-5.7-1.42-1.42z"></path><path d="m12 10.59-4.29-4.3-1.42 1.42 5.71 5.7 5.71-5.7-1.42-1.42z"></path></svg> */}
             {/* <hr className="absolute bottom-21 left-1/2 -translate-x-1/2 w-full max-w-6xl z-9 h-[3px] mx-auto" /> */}
