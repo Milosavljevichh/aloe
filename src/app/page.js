@@ -7,7 +7,7 @@ import CategoryCards from "@/components/home/CategoryCards";
 
 export default function Home() {
   return (
-    <main>
+    <main className="bg-primary-white">
       <Hero />
       <ThreeFeaturedProducts />
       <CategoryCards />
@@ -17,7 +17,7 @@ export default function Home() {
         curveAmount={230}
         interactive={false}
       />
-      {/* <About />  */}
+      <About /> 
     </main>
   );
 }

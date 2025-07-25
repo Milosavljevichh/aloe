@@ -83,7 +83,7 @@ export default function Header() {
                     <Button asChild size="sm" className="mt-0.5 w-full text-left text-sm">
                       <span className="flex items-baseline gap-2">
                         Cart
-                        <span className="text-primary-foreground/60 text-xs">
+                        <span className="text-primary-orange-foreground/60 text-xs">
                           2
                         </span>
                       </span>
@@ -95,7 +95,7 @@ export default function Header() {
           </Popover>
           {/* Main nav */}
           <div className="flex flex-1 items-center gap-6 max-md:justify-between">
-            <a href="#" className="text-[#F8F8FF] hover:text-primary/90">
+            <a href="#" className="text-[#F8F8FF] hover:text-primary-orange/90">
               <Logo />
             </a>
             {/* Navigation menu */}
@@ -105,7 +105,7 @@ export default function Header() {
                   <NavigationMenuItem key={index}>
                     <NavigationMenuLink
                       href={link.href}
-                      className="text-[#F8F8FF] hover:text-primary py-1.5 font-medium">
+                      className="text-[#F8F8FF] hover:text-primary-orange py-1.5 font-medium">
                       {link.label}
                     </NavigationMenuLink>
                   </NavigationMenuItem>
@@ -132,7 +132,7 @@ export default function Header() {
             <a href="#">
               <span className="flex items-baseline gap-2">
                 Cart
-                <span className="text-primary-foreground/60 text-xs">2</span>
+                <span className="text-primary-orange-foreground/60 text-xs">2</span>
               </span>
             </a>
           </Button> */}

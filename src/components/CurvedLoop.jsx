@@ -106,7 +106,7 @@ const CurvedLoop = ({
 
   return (
     <div
-      className="min-h-[40vh] flex items-center justify-center w-full mb-1"
+      className="min-h-[20vh] flex items-center justify-center w-full mb-40"
       style={{ visibility: ready ? "visible" : "hidden", cursor: cursorStyle }}
       onPointerDown={onPointerDown}
       onPointerMove={onPointerMove}
@@ -134,7 +134,7 @@ const CurvedLoop = ({
           />
         </defs>
         {ready && (
-          <text xmlSpace="preserve" className={`fill-[#fe9a00] opacity-95 ${className ?? ""}`}>
+          <text xmlSpace="preserve" className={`fill-primary-orange opacity-95 ${className ?? ""}`}>
             <textPath ref={textPathRef} href={`#${pathId}`} startOffset={offset + "px"} xmlSpace="preserve">
               {totalText}
             </textPath>

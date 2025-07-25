@@ -1,13 +1,11 @@
-import Image from "next/image"
 import products from "@/data/featuredProducts.json"
-import { Button } from "../ui/button"
 
 export default function ThreeFeaturedProducts() {
     return (
         <section className="min-h-[80vh] max-w-6xl mx-auto  my-20">
-            <div className="flex items-end justify-center gap-6 flex-wrap">
+            <div className="flex items-center justify-center gap-6 flex-wrap">
                 <h2 className="text-6xl whitespace-nowrap font-regular font-header opacity-95">Naša Preporuka</h2>
-                <hr className="flex-1 h-0.5 bg-black opacity-30 mb-1" />
+                <hr className="flex-1 h-0.5 bg-black opacity-15 mt-4" />
             </div>
             <h2 className="text-xl font-medium font-text pb-2 opacity-75 w-fit max-w-lg mt-10">
                 Pažljivo smo birali proizvode koji mogu biti potrebni svakome, bilo kada, bilo gde.

@@ -21,8 +21,9 @@
 @theme {
   --font-header: 'commissioner', 'Tahoma';
   --font-text: 'quicksand', 'Verdana';
-
   --font-test: 'mono';
+  --color-primary-orange: #fe9a00;
+  --color-primary-white: #fefce8;
 }
 
 @theme inline {
@@ -141,8 +142,4 @@
   body {
     @apply bg-background text-foreground;
   }
-}
-
-main {
-  background-color: #fefce8;
 }
