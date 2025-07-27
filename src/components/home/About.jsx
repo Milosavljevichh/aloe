@@ -3,7 +3,7 @@ import CallCTA from "../CallCTA"
 
 export default function About() {
     return (
-        <section className="max-w-6xl mx-auto mb-20">
+        <section id="workOpportunity" className="max-w-6xl mx-auto pb-20">
 
             <div className="flex items-end justify-center gap-6 flex-wrap">
                 <h2 className="text-6xl whitespace-nowrap font-regular font-header opacity-95">Posao iz fotelje?</h2>
@@ -39,7 +39,7 @@ export default function About() {
                         </Button>
                     </div>
                 </div>
-                <div className="max-w-1/2 relative w-full h-[60vh]">
+                <div className="max-w-1/2 relative w-full h-[60vh]  max-h-[525px]">
                     <img className="absolute border-2 border-solid border-primary-white left-1/2 top-7/12 -translate-x-1/2 -translate-y-5/12 h-96 aspect-square object-cover rounded-sm z-10" src="/pictures/work_from_home.jpg" alt="" />
                     <img className="absolute top-0 left-0 h-96 aspect-square object-cover rounded-sm" src="/pictures/work_from_home2.jpg" alt="" />
                 </div>

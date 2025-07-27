@@ -1,0 +1,322 @@
+[
+    {
+        "productName": "Aloe Vital Boost",
+        "productDescription": "Osvežavajući napitak sa aloe verom za energiju i imunitet.",
+        "productPrice": "1,249 RSD",
+        "productImage": "https://source.unsplash.com/featured/800x500/?aloe",
+        "productLink": "/products/aloe-vital-boost",
+        "productCategory": "Aloe Drinks"
+    },
+    {
+        "productName": "Forever Tropic Mix",
+        "productDescription": "Voćni napitak sa tropskim aromama i vitaminima.",
+        "productPrice": "1,399 RSD",
+        "productImage": "https://source.unsplash.com/featured/800x500/?juice",
+        "productLink": "/products/forever-tropic-mix",
+        "productCategory": "Fruit Juices"
+    },
+    {
+        "productName": "Herbal Zen Drink",
+        "productDescription": "Biljni napitak za relaksaciju i smirenje uma.",
+        "productPrice": "999 RSD",
+        "productImage": "https://source.unsplash.com/featured/800x500/?herbal",
+        "productLink": "/products/herbal-zen-drink",
+        "productCategory": "Herbal Infusions"
+    },
+    {
+        "productName": "Energy Aloe Shot",
+        "productDescription": "Koncentrovani aloe shot za brz energetski boost.",
+        "productPrice": "499 RSD",
+        "productImage": "https://source.unsplash.com/featured/800x500/?energy",
+        "productLink": "/products/energy-aloe-shot",
+        "productCategory": "Energy Boosters"
+    },
+    {
+        "productName": "Aloe Peach Fusion",
+        "productDescription": "Spoj aloe vere i slatke breskve u osvežavajućem piću.",
+        "productPrice": "1,299 RSD",
+        "productImage": "https://source.unsplash.com/featured/800x500/?peach",
+        "productLink": "/products/aloe-peach-fusion",
+        "productCategory": "Aloe Drinks"
+    },
+    {
+        "productName": "Mango Aloe Splash",
+        "productDescription": "Napitak sa aloe verom i egzotičnim mangom.",
+        "productPrice": "1,199 RSD",
+        "productImage": "https://source.unsplash.com/featured/800x500/?mango",
+        "productLink": "/products/mango-aloe-splash",
+        "productCategory": "Tropical Drinks"
+    },
+    {
+        "productName": "Citrus Aloe Breeze",
+        "productDescription": "Lagani napitak sa citrusnim notama i aloe verom.",
+        "productPrice": "1,089 RSD",
+        "productImage": "https://source.unsplash.com/featured/800x500/?citrus",
+        "productLink": "/products/citrus-aloe-breeze",
+        "productCategory": "Citrus Drinks"
+    },
+    {
+        "productName": "Berry Aloe Elixir",
+        "productDescription": "Mešavina bobičastog voća i aloe vere.",
+        "productPrice": "1,350 RSD",
+        "productImage": "https://source.unsplash.com/featured/800x500/?berry",
+        "productLink": "/products/berry-aloe-elixir",
+        "productCategory": "Berry Blends"
+    },
+    {
+        "productName": "Aloe Detox Tonic",
+        "productDescription": "Detox napitak sa biljnim ekstraktima i aloje.",
+        "productPrice": "1,450 RSD",
+        "productImage": "https://source.unsplash.com/featured/800x500/?detox",
+        "productLink": "/products/aloe-detox-tonic",
+        "productCategory": "Detox Drinks"
+    },
+    {
+        "productName": "Tropical Glow Juice",
+        "productDescription": "Voćni napitak sa vitaminom C i prirodnim sastojcima.",
+        "productPrice": "1,049 RSD",
+        "productImage": "https://source.unsplash.com/featured/800x500/?tropical",
+        "productLink": "/products/tropical-glow-juice",
+        "productCategory": "Fruit Juices"
+    },
+    {
+        "productName": "Coconut Aloe Chill",
+        "productDescription": "Osvežavajući spoj kokosove vode i aloe vere.",
+        "productPrice": "1,299 RSD",
+        "productImage": "https://source.unsplash.com/featured/800x500/?coconut",
+        "productLink": "/products/coconut-aloe-chill",
+        "productCategory": "Tropical Drinks"
+    },
+    {
+        "productName": "Mint Green Elixir",
+        "productDescription": "Zeleni napitak sa nanom i blagom aloe notom.",
+        "productPrice": "1,149 RSD",
+        "productImage": "https://source.unsplash.com/featured/800x500/?mint",
+        "productLink": "/products/mint-green-elixir",
+        "productCategory": "Herbal Infusions"
+    },
+    {
+        "productName": "Ginger Aloe Fire",
+        "productDescription": "Zagrevajući eliksir sa đumbirom i čistom aloe verom.",
+        "productPrice": "1,199 RSD",
+        "productImage": "https://source.unsplash.com/featured/800x500/?ginger",
+        "productLink": "/products/ginger-aloe-fire",
+        "productCategory": "Detox Drinks"
+    },
+    {
+        "productName": "Aloe Hydration Wave",
+        "productDescription": "Savršen napitak za hidrataciju tokom celog dana.",
+        "productPrice": "1,099 RSD",
+        "productImage": "https://source.unsplash.com/featured/800x500/?water",
+        "productLink": "/products/aloe-hydration-wave",
+        "productCategory": "Aloe Drinks"
+    },
+    {
+        "productName": "Wild Berry Charge",
+        "productDescription": "Energetski napitak sa divljim bobicama i kofeinom iz biljaka.",
+        "productPrice": "1,299 RSD",
+        "productImage": "https://source.unsplash.com/featured/800x500/?wildberry",
+        "productLink": "/products/wild-berry-charge",
+        "productCategory": "Energy Boosters"
+    },
+    {
+        "productName": "Lemon Aloe Revival",
+        "productDescription": "Osvežavajući napitak sa limunom i čistom aloje verom.",
+        "productPrice": "1,089 RSD",
+        "productImage": "https://source.unsplash.com/featured/800x500/?lemon",
+        "productLink": "/products/lemon-aloe-revival",
+        "productCategory": "Citrus Drinks"
+    },
+    {
+        "productName": "Aloe Matcha Splash",
+        "productDescription": "Zeleni čaj i aloe vera u savršenom balansu.",
+        "productPrice": "1,359 RSD",
+        "productImage": "https://source.unsplash.com/featured/800x500/?matcha",
+        "productLink": "/products/aloe-matcha-splash",
+        "productCategory": "Herbal Infusions"
+    },
+    {
+        "productName": "Raspberry Vital Drink",
+        "productDescription": "Malina, vitamini i aloe za dnevni osvežavajući ritual.",
+        "productPrice": "1,249 RSD",
+        "productImage": "https://source.unsplash.com/featured/800x500/?raspberry",
+        "productLink": "/products/raspberry-vital-drink",
+        "productCategory": "Berry Blends"
+    },
+    {
+        "productName": "Frozen Forest Elixir",
+        "productDescription": "Ledena kombinacija šumskog voća i aloje.",
+        "productPrice": "1,399 RSD",
+        "productImage": "https://source.unsplash.com/featured/800x500/?forest",
+        "productLink": "/products/frozen-forest-elixir",
+        "productCategory": "Berry Blends"
+    },
+    {
+        "productName": "Orange Aloe Charge",
+        "productDescription": "Napitak sa narandžom i prirodnim biljnim energentima.",
+        "productPrice": "1,199 RSD",
+        "productImage": "https://source.unsplash.com/featured/800x500/?orange",
+        "productLink": "/products/orange-aloe-charge",
+        "productCategory": "Citrus Drinks"
+    },
+    {
+        "productName": "Aloe Lime Breeze",
+        "productDescription": "Kisela svežina limete u balansu sa čistom aloje verom.",
+        "productPrice": "1,049 RSD",
+        "productImage": "https://source.unsplash.com/featured/800x500/?lime",
+        "productLink": "/products/aloe-lime-breeze",
+        "productCategory": "Citrus Drinks"
+    },
+    {
+        "productName": "Tropical Zen Cooler",
+        "productDescription": "Hladan napitak za osveženje i opuštanje sa tropskim tonovima.",
+        "productPrice": "1,199 RSD",
+        "productImage": "https://source.unsplash.com/featured/800x500/?cooler",
+        "productLink": "/products/tropical-zen-cooler",
+        "productCategory": "Tropical Drinks"
+    },
+    {
+        "productName": "Aloe Sunset Fizz",
+        "productDescription": "Gazirano osveženje sa laganim voćnim aromama i aloe notom.",
+        "productPrice": "1,349 RSD",
+        "productImage": "https://source.unsplash.com/featured/800x500/?fizz",
+        "productLink": "/products/aloe-sunset-fizz",
+        "productCategory": "Fruit Juices"
+    },
+    {
+        "productName": "Berry Electro Boost",
+        "productDescription": "Elektrolitski napitak sa ukusom bobica i aloe bazom.",
+        "productPrice": "1,289 RSD",
+        "productImage": "https://source.unsplash.com/featured/800x500/?electrolyte",
+        "productLink": "/products/berry-electro-boost",
+        "productCategory": "Energy Boosters"
+    },
+    {
+        "productName": "Pure Aloe Essence",
+        "productDescription": "Minimalistički napitak sa 99% aloe bez dodatih aroma.",
+        "productPrice": "1,000 RSD",
+        "productImage": "https://source.unsplash.com/featured/800x500/?pure",
+        "productLink": "/products/pure-aloe-essence",
+        "productCategory": "Aloe Drinks"
+    },
+    {
+        "productName": "Green Aloe Cooler",
+        "productDescription": "Napitak od zelene aloje i limunove trave, idealan za leto.",
+        "productPrice": "1,159 RSD",
+        "productImage": "[https://source.unsplash.com/featured/800x500/?green-drink](https://source.unsplash.com/featured/800x500/?green-drink)",
+        "productLink": "/products/green-aloe-cooler",
+        "productCategory": "Herbal Infusions"
+    },
+    {
+        "productName": "Aloe Berry Spark",
+        "productDescription": "Blago gazirano piće sa aloe verom i borovnicom.",
+        "productPrice": "1,389 RSD",
+        "productImage": "[https://source.unsplash.com/featured/800x500/?blueberry](https://source.unsplash.com/featured/800x500/?blueberry)",
+        "productLink": "/products/aloe-berry-spark",
+        "productCategory": "Berry Blends"
+    },
+    {
+        "productName": "Cucumber Aloe Hydrate",
+        "productDescription": "Lagani napitak sa krastavcem i aloe verom za osveženje.",
+        "productPrice": "1,049 RSD",
+        "productImage": "[https://source.unsplash.com/featured/800x500/?cucumber](https://source.unsplash.com/featured/800x500/?cucumber)",
+        "productLink": "/products/cucumber-aloe-hydrate",
+        "productCategory": "Detox Drinks"
+    },
+    {
+        "productName": "Tropical Aloe Punch",
+        "productDescription": "Egzotični napitak pun vitamina i osvežavajućih nota.",
+        "productPrice": "1,199 RSD",
+        "productImage": "[https://source.unsplash.com/featured/800x500/?fruit-punch](https://source.unsplash.com/featured/800x500/?fruit-punch)",
+        "productLink": "/products/tropical-aloe-punch",
+        "productCategory": "Tropical Drinks"
+    },
+    {
+        "productName": "Aloe Hibiscus Tea",
+        "productDescription": "Biljni čaj sa hibiskusom i aloe verom za mir i ravnotežu.",
+        "productPrice": "1,099 RSD",
+        "productImage": "[https://source.unsplash.com/featured/800x500/?hibiscus](https://source.unsplash.com/featured/800x500/?hibiscus)",
+        "productLink": "/products/aloe-hibiscus-tea",
+        "productCategory": "Herbal Infusions"
+    },
+    {
+        "productName": "Sparkling Aloe Nectar",
+        "productDescription": "Gazirani napitak sa blagom slatkoćom i aloe bazom.",
+        "productPrice": "1,299 RSD",
+        "productImage": "[https://source.unsplash.com/featured/800x500/?sparkling](https://source.unsplash.com/featured/800x500/?sparkling)",
+        "productLink": "/products/sparkling-aloe-nectar",
+        "productCategory": "Fruit Juices"
+    },
+    {
+        "productName": "Guava Aloe Blend",
+        "productDescription": "Guava i aloja u egzotičnoj i hranljivoj kombinaciji.",
+        "productPrice": "1,249 RSD",
+        "productImage": "[https://source.unsplash.com/featured/800x500/?guava](https://source.unsplash.com/featured/800x500/?guava)",
+        "productLink": "/products/guava-aloe-blend",
+        "productCategory": "Tropical Drinks"
+    },
+    {
+        "productName": "Aloe Chia Refresh",
+        "productDescription": "Zdrav napitak sa chia semenkama i aloe verom.",
+        "productPrice": "1,459 RSD",
+        "productImage": "[https://source.unsplash.com/featured/800x500/?chia](https://source.unsplash.com/featured/800x500/?chia)",
+        "productLink": "/products/aloe-chia-refresh",
+        "productCategory": "Detox Drinks"
+    },
+    {
+        "productName": "Aloe Watermelon Breeze",
+        "productDescription": "Osvežavajuća lubenica i čista aloe vera za savršen balans.",
+        "productPrice": "1,299 RSD",
+        "productImage": "[https://source.unsplash.com/featured/800x500/?watermelon](https://source.unsplash.com/featured/800x500/?watermelon)",
+        "productLink": "/products/aloe-watermelon-breeze",
+        "productCategory": "Fruit Juices"
+    },
+    {
+        "productName": "Cranberry Aloe Twist",
+        "productDescription": "Kiselkasti napitak sa brusnicom i aloe bazom.",
+        "productPrice": "1,199 RSD",
+        "productImage": "[https://source.unsplash.com/featured/800x500/?cranberry](https://source.unsplash.com/featured/800x500/?cranberry)",
+        "productLink": "/products/cranberry-aloe-twist",
+        "productCategory": "Berry Blends"
+    },
+    {
+        "productName": "Aloe Lemonade Burst",
+        "productDescription": "Prirodna limunada sa dodatkom aloe vere.",
+        "productPrice": "1,049 RSD",
+        "productImage": "[https://source.unsplash.com/featured/800x500/?lemonade](https://source.unsplash.com/featured/800x500/?lemonade)",
+        "productLink": "/products/aloe-lemonade-burst",
+        "productCategory": "Citrus Drinks"
+    },
+    {
+        "productName": "Pineapple Aloe Crush",
+        "productDescription": "Egzotični ananas i aloe vera za svakodnevno osveženje.",
+        "productPrice": "1,149 RSD",
+        "productImage": "[https://source.unsplash.com/featured/800x500/?pineapple](https://source.unsplash.com/featured/800x500/?pineapple)",
+        "productLink": "/products/pineapple-aloe-crush",
+        "productCategory": "Tropical Drinks"
+    },
+    {
+        "productName": "Kiwi Aloe Refresher",
+        "productDescription": "Neobična kombinacija kivija i aloe vere u osvežavajućem piću.",
+        "productPrice": "1,189 RSD",
+        "productImage": "[https://source.unsplash.com/featured/800x500/?kiwi](https://source.unsplash.com/featured/800x500/?kiwi)",
+        "productLink": "/products/kiwi-aloe-refresher",
+        "productCategory": "Fruit Juices"
+    },
+    {
+        "productName": "Cold Brew Aloe Tonic",
+        "productDescription": "Fuzija hladnog crnog čaja i aloe vere za fokus i osveženje.",
+        "productPrice": "1,399 RSD",
+        "productImage": "[https://source.unsplash.com/featured/800x500/?coldbrew](https://source.unsplash.com/featured/800x500/?coldbrew)",
+        "productLink": "/products/cold-brew-aloe-tonic",
+        "productCategory": "Energy Boosters"
+    },
+    {
+        "productName": "Aloe Apple Fizz",
+        "productDescription": "Gazirani napitak sa blagim ukusom jabuke i aloe vere.",
+        "productPrice": "1,149 RSD",
+        "productImage": "[https://source.unsplash.com/featured/800x500/?apple](https://source.unsplash.com/featured/800x500/?apple)",
+        "productLink": "/products/aloe-apple-fizz",
+        "productCategory": "Fruit Juices"
+    }
+]

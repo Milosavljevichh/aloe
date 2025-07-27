@@ -9,7 +9,7 @@ export default function FeaturedProducts() {
                 <h2 className="text-xl whitespace-nowrap font-medium font-text pb-2 opacity-75 mx-auto w-fit">Pogledajte neke od pažljivo izabranih proizvoda</h2>
 
 
-            <div className="w-full mt-20 flex gap-6">
+            <div id="deals" className="w-full mt-20 flex gap-6">
                 <div className="w-1/2 overflow-hidden flex flex-col gap-5">
 
                     <div className="flex gap-6">

@@ -2,7 +2,7 @@ import products from "@/data/featuredProducts.json"
 
 export default function ThreeFeaturedProducts() {
     return (
-        <section className="min-h-[80vh] max-w-6xl mx-auto  my-20">
+        <section id="deals" className="min-h-[80vh] max-w-6xl mx-auto  my-20">
             <div className="flex items-center justify-center gap-6 flex-wrap">
                 <h2 className="text-6xl whitespace-nowrap font-regular font-header opacity-95">Naša Preporuka</h2>
                 <hr className="flex-1 h-0.5 bg-black opacity-15 mt-4" />

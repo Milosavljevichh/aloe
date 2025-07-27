@@ -18,9 +18,10 @@ import {
 
 // Navigation links array to be used in both desktop and mobile menus
 const navigationLinks = [
-  { href: "#", label: "Products" },
-  { href: "#", label: "Categories" },
-  { href: "#", label: "Deals" },
+  { href: "/", label: "Početna" },
+  { href: "/products", label: "Products" },
+  { href: "/#deals", label: "Deals" },
+  { href: "/contact", label: "Kontakt" },
 ]
 
 export default function Header() {
@@ -95,7 +96,7 @@ export default function Header() {
           </Popover>
           {/* Main nav */}
           <div className="flex flex-1 items-center gap-6 max-md:justify-between">
-            <a href="#" className="text-[#F8F8FF] hover:text-primary-orange/90">
+            <a href="/" className="text-primary-white hover:text-primary-orange/90">
               <Logo />
             </a>
             {/* Navigation menu */}
@@ -105,7 +106,7 @@ export default function Header() {
                   <NavigationMenuItem key={index}>
                     <NavigationMenuLink
                       href={link.href}
-                      className="text-[#F8F8FF] hover:text-primary-orange py-1.5 font-medium">
+                      className="text-primary-white hover:text-primary-orange py-1.5 font-medium">
                       {link.label}
                     </NavigationMenuLink>
                   </NavigationMenuItem>
@@ -116,11 +117,11 @@ export default function Header() {
             <div className="relative">
               <Input
                 id={id}
-                className="peer h-8 ps-8 pe-2 text-[#F8F8FF] !placeholder-[#F8F8FF]"
+                className="peer h-8 ps-8 pe-2 text-primary-white !placeholder-primary-white"
                 placeholder="Search..."
                 type="search" />
               <div
-                className="text-[#F8F8FF] pointer-events-none absolute inset-y-0 start-0 flex items-center justify-center ps-2 peer-disabled:opacity-50">
+                className="text-primary-white pointer-events-none absolute inset-y-0 start-0 flex items-center justify-center ps-2 peer-disabled:opacity-50">
                 <SearchIcon size={16} />
               </div>
             </div>
