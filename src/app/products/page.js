@@ -46,10 +46,10 @@ export default function Products() {
     const selectFilter = (filter) => {
         setFilter(filter)
     }
-    console.table(categorizedProducts)
+    
     return (
         <main className="max-w-6xl bg-primary-white relative mx-auto flex gap-4 min-h-full">
-            <Dashboard categories={categories} selectCategory={selectCategory} selectFilter={selectFilter} />
+            <Dashboard categories={categories} selectCategory={selectCategory} selectFilter={selectFilter} selectedCategory={selectedCategory} />
             <ProductsContainer products={categorizedProducts} />
         </main>
     )

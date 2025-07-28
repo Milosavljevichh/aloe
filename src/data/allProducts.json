@@ -3,41 +3,49 @@
         "productName": "Aloe Vital Boost",
         "productDescription": "Osvežavajući napitak sa aloe verom za energiju i imunitet.",
         "productPrice": "1,249 RSD",
-        "productImage": "https://source.unsplash.com/featured/800x500/?aloe",
+        "productImage": "/pictures/product_cover/aloe.jpg",
         "productLink": "/products/aloe-vital-boost",
         "productCategory": "Aloe Drinks"
-    },
-    {
-        "productName": "Forever Tropic Mix",
-        "productDescription": "Voćni napitak sa tropskim aromama i vitaminima.",
-        "productPrice": "1,399 RSD",
-        "productImage": "https://source.unsplash.com/featured/800x500/?juice",
-        "productLink": "/products/forever-tropic-mix",
-        "productCategory": "Fruit Juices"
     },
     {
         "productName": "Herbal Zen Drink",
         "productDescription": "Biljni napitak za relaksaciju i smirenje uma.",
         "productPrice": "999 RSD",
-        "productImage": "https://source.unsplash.com/featured/800x500/?herbal",
+        "productImage": "/pictures/product_cover/daily.jpg",
         "productLink": "/products/herbal-zen-drink",
         "productCategory": "Herbal Infusions"
     },
     {
-        "productName": "Energy Aloe Shot",
-        "productDescription": "Koncentrovani aloe shot za brz energetski boost.",
-        "productPrice": "499 RSD",
-        "productImage": "https://source.unsplash.com/featured/800x500/?energy",
-        "productLink": "/products/energy-aloe-shot",
-        "productCategory": "Energy Boosters"
+        "productName": "Herbal Ze Drink",
+        "productDescription": "Biljni napitak za relaksaciju i smirenje uma.",
+        "productPrice": "999 RSD",
+        "productImage": "/pictures/product_cover/pastazeleno.jpg",
+        "productLink": "/products/herbal-zen-drink",
+        "productCategory": "Herbal Infusions"
     },
     {
         "productName": "Aloe Peach Fusion",
         "productDescription": "Spoj aloe vere i slatke breskve u osvežavajućem piću.",
         "productPrice": "1,299 RSD",
-        "productImage": "https://source.unsplash.com/featured/800x500/?peach",
+        "productImage": "/pictures/product_cover/pasta.jpg",
         "productLink": "/products/aloe-peach-fusion",
         "productCategory": "Aloe Drinks"
+    },
+    {
+        "productName": "Energy Aloe Shot",
+        "productDescription": "Koncentrovani aloe shot za brz energetski boost.",
+        "productPrice": "499 RSD",
+        "productImage": "/pictures/product_cover/dailybelo.jpg",
+        "productLink": "/products/energy-aloe-shot",
+        "productCategory": "Energy Boosters"
+    },
+    {
+        "productName": "Forever Tropic Mix",
+        "productDescription": "Voćni napitak sa tropskim aromama i vitaminima.",
+        "productPrice": "1,399 RSD",
+        "productImage": "/pictures/product_cover/aloebelo.jpg",
+        "productLink": "/products/forever-tropic-mix",
+        "productCategory": "Fruit Juices"
     },
     {
         "productName": "Mango Aloe Splash",

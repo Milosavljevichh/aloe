@@ -1,6 +1,6 @@
 import Select from "../PriceSelect";
 
-export default function Dashboard({ categories, selectCategory, selectFilter }) {
+export default function Dashboard({ categories, selectCategory, selectFilter, selectedCategory }) {
 
     const filterOptions = [{
         text: 'Bez filtera',
@@ -22,7 +22,10 @@ export default function Dashboard({ categories, selectCategory, selectFilter }) 
                     <li key={category}>
                         <button
                             onClick={() => selectCategory(category)}
-                            className="w-full text-left px-4 py-2 hover:bg-gray-100 transition-colors duration-200"
+                            className={
+                                "w-full text-left px-4 py-2 hover:cursor-pointer transition duration-200" +
+                                (selectedCategory === category && " bg-primary-orange text-primary-white font-medium")
+                            }
                         >
                             {category}
                         </button>
