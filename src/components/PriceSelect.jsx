@@ -9,19 +9,19 @@ import {
   SelectValue,
 } from "@/components/ui/select"
 
-export default function PriceSelect({options}) {
+export default function PriceSelect({options, setFilter}) {
   const id = useId()
   return (
     <div className="mt-6">
       <Label htmlFor={id}>Sortiraj po ceni</Label>
-      <Select>
+      <Select onValueChange={(value) => setFilter(value)}>
         <SelectTrigger id={id}>
           <SelectValue placeholder="Filter" />
         </SelectTrigger>
         <SelectContent>
           {
-            options.map((option,index)=>(
-              <SelectItem key={option} value={index}>{option}</SelectItem>
+            options.map((option, index)=>(
+              <SelectItem key={option.text} value={option.value}>{option.text}</SelectItem>
             ))
           }
         </SelectContent>

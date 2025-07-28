@@ -1,8 +1,19 @@
 import Select from "../PriceSelect";
 
-export default function Dashboard({ categories, selectCategory }) {
+export default function Dashboard({ categories, selectCategory, selectFilter }) {
 
-    const filterOptions = ['Bez filtera', 'Najviša cena', 'Najmanja cena']
+    const filterOptions = [{
+        text: 'Bez filtera',
+        value: '0'
+    },
+    {
+        text: 'Rastuća cena',
+        value: 'ASC'
+    },
+    {
+        text: 'Opadajuća cena',
+        value: 'DESC'
+    }]
 
     return (
         <aside className="max-w-44 w-full bg-primary-white sticky top-16 self-start h-fit">
@@ -18,7 +29,7 @@ export default function Dashboard({ categories, selectCategory }) {
                     </li>
                 ))}
             </ul>
-            <Select options={filterOptions} />
+            <Select setFilter={selectFilter} options={filterOptions} />
         </aside>
     );
 }

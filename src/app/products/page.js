@@ -4,34 +4,53 @@ import products from '../../data/allProducts.json';
 import Dashboard from '@/components/products/Dashboard';
 import ProductsContainer from '@/components/products/ProductsContainer';
 
-export default function Products(){
+export default function Products() {
 
     const [selectedCategory, setSelectedCategory] = useState("");
+    const [filter, setFilter] = useState("");
 
-    let categories = [];
-    let filteredProducts;
+    //izdvajanje svake kategorije samo jednom
+    const categories = Array.from(new Set(products.map(product => product.productCategory)));
 
-    products.forEach(product => {
-        if (categories.find((category) => category == product.productCategory)) {
-            return;
-        }
-        categories.push(product.productCategory)
-    });
+    let categorizedProducts;
 
+    //prikazujemo samo proizvode iz izabrane kategorije
     if (selectedCategory) {
-        filteredProducts = products.filter(product => product.productCategory === selectedCategory)
+        categorizedProducts = products.filter(product => product.productCategory === selectedCategory)
+    } else {
+        categorizedProducts = products;
     }
+
+    //vadimo samo broj iz cene
+    function parsePrice(priceStr) {
+        const cleanStr = priceStr.replace(/[^\d.]/g, '').replace(/,/g, '');
+        return parseFloat(cleanStr);
+    }
+
+    //sortiramo proizvode po ceni, rastucoj ili opadajucoj tj. filtriramo
+    if (filter) {
+        if (filter === "ASC") {
+            categorizedProducts = [...categorizedProducts].sort((a, b) => parsePrice(a.productPrice) - parsePrice(b.productPrice));
+        } else if (filter === "DESC") {
+            categorizedProducts = [...categorizedProducts].sort((a, b) => parsePrice(b.productPrice) - parsePrice(a.productPrice));
+        }
+    }
+
 
     const selectCategory = (category) => {
         if (category !== selectedCategory) {
             setSelectedCategory(category)
-        } else {setSelectedCategory("")}
+        } else { setSelectedCategory("") }
     }
 
-    return(
+    const selectFilter = (filter) => {
+        setFilter(filter)
+    }
+    console.table(categorizedProducts)
+    return (
         <main className="max-w-6xl bg-primary-white relative mx-auto flex gap-4 min-h-full">
-            <Dashboard categories={categories} selectCategory={selectCategory} />
-            <ProductsContainer products={selectedCategory ? filteredProducts : products} />
+            <Dashboard categories={categories} selectCategory={selectCategory} selectFilter={selectFilter} />
+            <ProductsContainer products={categorizedProducts} />
         </main>
     )
 }

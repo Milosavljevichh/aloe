@@ -5,7 +5,7 @@ export default function ProductsContainer({ products }) {
         <section className="w-full mt-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6">
             {products.map(product => (
                 <ProductCard
-                    key={product.productName} // dodaj key
+                    key={product.productName}
                     name={product.productName}
                     description={product.productDescription}
                     price={product.productPrice}
