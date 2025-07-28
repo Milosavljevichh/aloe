@@ -29,7 +29,7 @@ export default function Products(){
     }
 
     return(
-        <main className="max-w-6xl bg-primary-white relative mx-auto flex gap-4">
+        <main className="max-w-6xl bg-primary-white relative mx-auto flex gap-4 min-h-full">
             <Dashboard categories={categories} selectCategory={selectCategory} />
             <ProductsContainer products={selectedCategory ? filteredProducts : products} />
         </main>

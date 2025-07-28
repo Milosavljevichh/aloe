@@ -1,6 +1,6 @@
 export default function Dashboard({ categories, selectCategory }) {
     return (
-        <aside className="max-w-44 bg-primary-white border border-gray-200 shadow-sm sticky top-16 self-start h-fit">
+        <aside className="max-w-44 w-full bg-primary-white border border-gray-200 shadow-sm sticky top-16 self-start h-fit">
             <ul className="divide-y divide-gray-200">
                 {categories.map((category) => (
                     <li key={category}>
@@ -13,6 +13,7 @@ export default function Dashboard({ categories, selectCategory }) {
                     </li>
                 ))}
             </ul>
+            
         </aside>
     );
 }
