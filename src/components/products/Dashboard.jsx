@@ -1,4 +1,5 @@
 import Select from "../PriceSelect";
+import PriceSlider from "../PriceSlider";
 
 export default function Dashboard({ categories, selectCategory, selectFilter, selectedCategory }) {
 
@@ -16,7 +17,7 @@ export default function Dashboard({ categories, selectCategory, selectFilter, se
     }]
 
     return (
-        <aside className="max-w-44 w-full bg-primary-white sticky top-16 self-start h-fit">
+        <aside className="max-w-48 w-full bg-primary-white sticky top-16 self-start h-fit">
             <ul className="divide-y divide-gray-200 border border-gray-200  shadow-sm">
                 {categories.map((category) => (
                     <li key={category}>
@@ -33,6 +34,7 @@ export default function Dashboard({ categories, selectCategory, selectFilter, se
                 ))}
             </ul>
             <Select setFilter={selectFilter} options={filterOptions} />
+            <PriceSlider />
         </aside>
     );
 }
