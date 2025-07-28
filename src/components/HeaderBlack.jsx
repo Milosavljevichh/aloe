@@ -28,7 +28,7 @@ export default function HeaderBlack() {
   const id = useId()
 
   return (
-    <header className="max-w-6xl border-b px-4 md:px-6 absolute top-0 left-1/2 -translate-x-1/2 w-[95vw] z-999">
+    <header className="max-w-6xl border-b px-4 md:px-6 w-[95vw] mx-auto">
       <div className="flex h-16 items-center justify-between gap-4">
         {/* Left side */}
         <div className="flex flex-1 items-center gap-2">
