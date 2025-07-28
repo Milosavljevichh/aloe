@@ -1,9 +1,9 @@
 export default function ProductsContainer({products}){
     return (
-        <section>
+        <section className="w-full mt-16">
             {
                 products.map(product => (
-                    <div>
+                    <div className="mb-10">
                         <p>{product.productName}</p>
                         <p>{product.productDescription}</p>
                         <p>{product.productCategory}</p>

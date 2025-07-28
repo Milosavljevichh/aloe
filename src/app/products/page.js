@@ -23,13 +23,13 @@ export default function Products(){
     }
 
     const selectCategory = (category) => {
-        if (category !== selectCategory) {
+        if (category !== selectedCategory) {
             setSelectedCategory(category)
         } else {setSelectedCategory("")}
     }
 
     return(
-        <main className="max-w-6xl bg-primary-white relative mx-auto">
+        <main className="max-w-6xl bg-primary-white relative mx-auto flex gap-4">
             <Dashboard categories={categories} selectCategory={selectCategory} />
             <ProductsContainer products={selectedCategory ? filteredProducts : products} />
         </main>
