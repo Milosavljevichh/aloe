@@ -1,7 +1,12 @@
+import Select from "../PriceSelect";
+
 export default function Dashboard({ categories, selectCategory }) {
+
+    const filterOptions = ['Bez filtera', 'Najviša cena', 'Najmanja cena']
+
     return (
-        <aside className="max-w-44 w-full bg-primary-white border border-gray-200 shadow-sm sticky top-16 self-start h-fit">
-            <ul className="divide-y divide-gray-200">
+        <aside className="max-w-44 w-full bg-primary-white sticky top-16 self-start h-fit">
+            <ul className="divide-y divide-gray-200 border border-gray-200  shadow-sm">
                 {categories.map((category) => (
                     <li key={category}>
                         <button
@@ -13,7 +18,7 @@ export default function Dashboard({ categories, selectCategory }) {
                     </li>
                 ))}
             </ul>
-            
+            <Select options={filterOptions} />
         </aside>
     );
 }
