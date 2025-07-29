@@ -56,6 +56,30 @@
         "productCategory": "Tropical Drinks"
     },
     {
+        "productName": "Mango Aloe Splassh",
+        "productDescription": "Napitak sa aloe verom i egzotičnim mangom.",
+        "productPrice": "4,199 RSD",
+        "productImage": "https://source.unsplash.com/featured/800x500/?mango",
+        "productLink": "/products/mango-aloe-splash",
+        "productCategory": "Tropical Drinks"
+    },
+    {
+        "productName": "Mango Aloe Splashh",
+        "productDescription": "Napitak sa aloe verom i egzotičnim mangom.",
+        "productPrice": "11,199 RSD",
+        "productImage": "https://source.unsplash.com/featured/800x500/?mango",
+        "productLink": "/products/mango-aloe-splash",
+        "productCategory": "Tropical Drinks"
+    },
+    {
+        "productName": "Mango Aloee Splash",
+        "productDescription": "Napitak sa aloe verom i egzotičnim mangom.",
+        "productPrice": "7,199 RSD",
+        "productImage": "https://source.unsplash.com/featured/800x500/?mango",
+        "productLink": "/products/mango-aloe-splash",
+        "productCategory": "Tropical Drinks"
+    },
+    {
         "productName": "Citrus Aloe Breeze",
         "productDescription": "Lagani napitak sa citrusnim notama i aloe verom.",
         "productPrice": "1,089 RSD",

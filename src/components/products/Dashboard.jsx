@@ -1,7 +1,7 @@
 import Select from "../PriceSelect";
 import PriceSlider from "../PriceSlider";
 
-export default function Dashboard({ categories, selectCategory, selectFilter, selectedCategory }) {
+export default function Dashboard({ categories, selectCategory, selectFilter, selectedCategory, changePriceRange, maxRange }) {
 
     const filterOptions = [{
         text: 'Bez filtera',
@@ -34,7 +34,7 @@ export default function Dashboard({ categories, selectCategory, selectFilter, se
                 ))}
             </ul>
             <Select setFilter={selectFilter} options={filterOptions} />
-            <PriceSlider />
+            <PriceSlider changePriceRange={changePriceRange} maxRange={maxRange} />
         </aside>
     );
 }
