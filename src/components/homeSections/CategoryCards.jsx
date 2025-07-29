@@ -6,7 +6,7 @@ export default function CategoryCards() {
         <section className="flex flex-col md:flex-row gap-6 justify-between py-8 min-h-[40vh] max-w-6xl mx-auto mt-20">
             {/* Kartica 1 */}
             <Link
-                href="/shop"
+                href="/products"
                 className="border border-gray-300 shadow-lg transition overflow-hidden w-full md:w-[48%] h-48"
             >
                 <div className=" flex flex-col md:flex-row border-t-2 border-t-solid border-green-600 h-full">
@@ -31,7 +31,7 @@ export default function CategoryCards() {
                 </div>
             </Link>
             <Link
-                href="/shop"
+                href="/products"
                 className="border border-gray-300 shadow-lg transition overflow-hidden w-full md:w-[48%] h-48"
             >
                 <div className=" flex flex-col md:flex-row border-t-2 border-t-solid border-green-600 h-full">

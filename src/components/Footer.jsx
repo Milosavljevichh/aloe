@@ -24,7 +24,7 @@ export default function Footer() {
                 {/* Logo + description */}
                 <div>
                     <img src="/logo-white.svg" alt="Forever Living logo" className="mb-4" />
-                    <p className="text-sm text-gray-300 max-w-sm">
+                    <p className="text-sm text-gray-300 max-w-sm  font-text">
                         Internet prodavnica kompanije Forever Living Products doo Beograd je jedina zvanična prodavnica artikala sa obeležjima Forever Living Products International.
                     </p>
                 </div>
@@ -33,7 +33,7 @@ export default function Footer() {
 
                     {/* Navigation links */}
                     <div>
-                        <h4 className="font-semibold text-lg mb-4">Navigacija</h4>
+                        <h4 className="font-header font-semibold text-lg mb-4">Navigacija</h4>
                         <NavigationMenu className="max-md:hidden">
                             <NavigationMenuList className="gap-2 flex flex-col items-start">
                                 {navigationLinks.map((link, index) => (
@@ -51,13 +51,13 @@ export default function Footer() {
 
                     {/* Contact info */}
                     <div>
-                        <h4 className="font-semibold text-lg mb-4">Kontakt</h4>
+                        <h4 className="font-header font-semibold text-lg mb-4">Kontakt</h4>
                         <div className="space-y-3 text-sm text-gray-300">
-                            <div className="flex items-center gap-2">
+                            <div className="flex items-center gap-2  font-text">
                                 <BiLogoGmail className="text-primary-white" />
                                 <a href="mailto:office@forever.com" className=" w-full">office@forever.com</a>
                             </div>
-                            <div className="flex items-start gap-2">
+                            <div className="flex items-start gap-2  font-text">
                                 <FaPhoneAlt className="mt-1 text-primary-white" />
                                 <p className=" w-full">
                                     +060-342-2057
@@ -68,7 +68,7 @@ export default function Footer() {
 
                     {/* Social icons */}
                     <div>
-                        <h4 className="font-semibold text-lg mb-4">Pratite nas</h4>
+                        <h4 className="font-header font-semibold text-lg mb-4">Pratite nas</h4>
                         <div className="flex gap-4 text-2xl text-primary-white">
                             <BiLogoInstagram className="hover:text-primary-orange hover:cursor-pointer transition" />
                             <BiLogoFacebookCircle className="hover:text-primary-orange hover:cursor-pointer transition" />
@@ -78,7 +78,7 @@ export default function Footer() {
                 </div>
             </div>
 
-            <div className="mt-10 border-t border-gray-700 pt-6 text-center text-sm text-gray-400">
+            <div className="mt-10 border-t border-gray-700 pt-6 text-center text-sm text-gray-400  font-text">
                 <p>© 2025 Forever Living Products Shop – All rights reserved.</p>
                 <p className="mt-6">Website by: Milosavljevich</p>
             </div>
