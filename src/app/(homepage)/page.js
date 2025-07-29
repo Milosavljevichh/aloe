@@ -4,6 +4,7 @@ import CurvedLoop from "@/components/CurvedLoop";
 import ThreeFeaturedProducts from "@/components/homeSections/ThreeFeaturedProducts";
 import About from "@/components/homeSections/About";
 import CategoryCards from "@/components/homeSections/CategoryCards";
+import Reviews from "@/components/homeSections/Reviews";
 
 export default function HomePage() {
   return (
@@ -18,6 +19,7 @@ export default function HomePage() {
         interactive={false}
       />
       <About /> 
+      <Reviews />
     </main>
   );
 }
