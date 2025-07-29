@@ -41,9 +41,9 @@ export default function Contact() {
                     {/* Full width image */}
                     <div className="col-span-2">
                         <img
-                            src="/logo-white.svg"
+                            src="/aloe_product_cropped.png"
                             alt="Contact visual"
-                            className="w-full h-56 object-contain object-center rounded-md filter invert -ml-4"
+                            className="w-full h-56 object-cover object-center rounded-md"
                         />
                     </div>
                 </div>
