@@ -1,20 +1,19 @@
+import FAQ from "@/components/FAQ"
+import { BiLogoGmail, BiLogoInstagram, BiLogoFacebookCircle, BiLogoTiktok } from 'react-icons/bi';
+
 export default function Contact() {
     return (
         <main className="bg-primary-white">
-            <div className="bg-white max-w-6xl mx-auto rounded-lg p-8 grid md:grid-cols-2 gap-8">
+            <div className="bg-primary-white max-w-6xl mx-auto rounded-lg p-8 pt-18 grid md:grid-cols-2 gap-8">
 
                 {/* Left side - Title + Socials */}
                 <div className="flex flex-col justify-between">
                     <div>
                         <h1 className="text-5xl font-semibold mb-4 font-header">Contact us</h1>
                         <p className="text-gray-700 mb-12 font-text">Get in touch with us for any enquiries and questions</p>
+                    <FAQ />
                     </div>
 
-                    <div className="flex gap-6 text-sm">
-                        <a href="#" className="hover:underline">Behance</a>
-                        <a href="#" className="hover:underline">Instagram</a>
-                        <a href="#" className="hover:underline">Telegram</a>
-                    </div>
                 </div>
 
                 {/* Right side - Info blocks */}
@@ -44,7 +43,7 @@ export default function Contact() {
                         <img
                             src="/logo-white.svg"
                             alt="Contact visual"
-                            className="w-full object-cover rounded-md filter invert -ml-5"
+                            className="w-full h-56 object-contain object-center rounded-md filter invert -ml-4"
                         />
                     </div>
                 </div>
