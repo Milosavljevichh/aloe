@@ -7,6 +7,7 @@ import {
   NavigationMenuLink,
   NavigationMenuList,
 } from "@/components/ui/navigation-menu"
+import CallCTA from "./CallCTA";
 
 const navigationLinks = [
     { href: "/", label: "Početna" },
@@ -51,28 +52,33 @@ export default function Footer() {
 
                     {/* Contact info */}
                     <div>
-                        <h4 className="font-header font-semibold text-lg mb-4">Kontakt</h4>
-                        <div className="space-y-3 text-sm text-gray-300">
-                            <div className="flex items-center gap-2  font-text">
-                                <BiLogoGmail className="text-primary-white" />
-                                <a href="mailto:office@forever.com" className=" w-full">office@forever.com</a>
-                            </div>
-                            <div className="flex items-start gap-2  font-text">
-                                <FaPhoneAlt className="mt-1 text-primary-white" />
-                                <p className=" w-full">
-                                    +060-342-2057
-                                </p>
+                        <div className="mx-auto">
+                            <h4 className="font-header font-semibold text-lg mb-4">Kontakt</h4>
+                            <div className="space-y-3 text-sm text-gray-300">
+                                <CallCTA bg="bg-transparent" arrow={null} border="border-0 shadow-none" />
+                                <div className="ml-4 flex items-center gap-2  font-text">
+                                    <BiLogoGmail size={24} className="text-primary-white" />
+                                    <a href="mailto:office@forever.com" className=" w-full">office@forever.com</a>
+                                </div>
+                                <div className="ml-4 flex items-start gap-2  font-text">
+                                    <FaPhoneAlt size={24} className="mt-1 text-primary-white" />
+                                    <p className=" w-full">
+                                        +060-342-2057
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
 
                     {/* Social icons */}
                     <div>
-                        <h4 className="font-header font-semibold text-lg mb-4">Pratite nas</h4>
-                        <div className="flex gap-4 text-2xl text-primary-white">
-                            <BiLogoInstagram className="hover:text-primary-orange hover:cursor-pointer transition" />
-                            <BiLogoFacebookCircle className="hover:text-primary-orange hover:cursor-pointer transition" />
-                            <BiLogoTiktok className="hover:text-primary-orange hover:cursor-pointer transition" />
+                        <div className="w-fit mx-auto">
+                            <h4 className="font-header font-semibold text-lg mb-4">Pratite nas</h4>
+                            <div className="flex gap-4 text-2xl text-primary-white">
+                                <BiLogoInstagram className="hover:text-primary-orange hover:cursor-pointer transition" />
+                                <BiLogoFacebookCircle className="hover:text-primary-orange hover:cursor-pointer transition" />
+                                <BiLogoTiktok className="hover:text-primary-orange hover:cursor-pointer transition" />
+                            </div>
                         </div>
                     </div>
                 </div>
