@@ -1,6 +1,11 @@
+import Link from 'next/link';
+
 export default function ProductCard({name, description, category, image, price}){
+
+    const slug = name.toLowerCase().replace(/\s+/g, '-');
+
     return (
-        
+        <Link href={`/products/${slug}`}>
             <div className="card w-full  bg-primary-white border border-gray-300 shadow-sm">
                 <figure>
                     <img
@@ -20,5 +25,6 @@ export default function ProductCard({name, description, category, image, price})
                     </div>
                 </div>
             </div>
+        </Link>
     )
 }
