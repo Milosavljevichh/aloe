@@ -1,7 +1,8 @@
 import Select from "../PriceSelect";
 import PriceSlider from "../PriceSlider";
+import { Button } from '@/components/ui/button';
 
-export default function Dashboard({ categories, selectCategory, selectFilter, selectedCategory, changePriceRange, maxRange }) {
+export default function Dashboard({ selectedFilter, categories, selectCategory, selectFilter, selectedCategory, changePriceRange, maxRange, resetFilters }) {
 
     const filterOptions = [{
         text: 'Bez filtera',
@@ -33,8 +34,8 @@ export default function Dashboard({ categories, selectCategory, selectFilter, se
                     </li>
                 ))}
             </ul>
-            <Select setFilter={selectFilter} options={filterOptions} />
-            <PriceSlider changePriceRange={changePriceRange} maxRange={maxRange} />
+            <Select setFilter={selectFilter} options={filterOptions} selectedFilter={selectedFilter} />
+            <PriceSlider changePriceRange={changePriceRange} maxRange={maxRange} resetFilters={resetFilters} />
         </aside>
     );
 }

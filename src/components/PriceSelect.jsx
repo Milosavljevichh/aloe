@@ -9,12 +9,12 @@ import {
   SelectValue,
 } from "@/components/ui/select"
 
-export default function PriceSelect({options, setFilter}) {
+export default function PriceSelect({options, setFilter, selectedFilter}) {
   const id = useId()
   return (
     <div className="mt-6">
       <Label htmlFor={id}>Sortiraj po ceni</Label>
-      <Select onValueChange={(value) => setFilter(value)}>
+      <Select onValueChange={(value) => setFilter(value)} value={selectedFilter}>
         <SelectTrigger id={id}>
           <SelectValue placeholder="Filter" />
         </SelectTrigger>

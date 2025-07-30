@@ -62,9 +62,15 @@ export default function Products() {
         setPriceRange(range)
     }
 
+    const resetFilters = () => {
+        setSelectedCategory("")
+        setFilter("")
+        setPriceRange([])
+    }
+
     return (
         <main className="max-w-6xl bg-primary-white relative mx-auto flex gap-4 min-h-full">
-            <Dashboard maxRange={maxRange} categories={categories} selectCategory={selectCategory} selectFilter={selectFilter} selectedCategory={selectedCategory} changePriceRange={changePriceRange} />
+            <Dashboard selectedFilter={filter} resetFilters={resetFilters} maxRange={maxRange} categories={categories} selectCategory={selectCategory} selectFilter={selectFilter} selectedCategory={selectedCategory} changePriceRange={changePriceRange} />
             <ProductsContainer products={categorizedProducts} />
         </main>
     )
