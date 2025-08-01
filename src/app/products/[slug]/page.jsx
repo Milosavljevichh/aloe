@@ -1,4 +1,3 @@
-import { notFound } from 'next/navigation';
 import products from '@/data/allProducts.json'; // ili kako već uvoziš
 
 export default function ProductPage({ params }) {
@@ -8,11 +7,13 @@ export default function ProductPage({ params }) {
         p.productName.toLowerCase().replace(/\s+/g, '-') === slug
     );
 
-    if (!product) return notFound();
+    if (!product) {
+    return <div>Proizvod nije pronađen.</div>;
+  }
 
     return (
-        <main className="max-w-6xl mx-auto px-6 py-16">
-            <div className="flex flex-col md:flex-row items-stretch gap-12 min-h-[500px] h-fit">
+        <main className="max-w-6xl mx-auto px-6 pt-16">
+            <div className="flex flex-col md:flex-row items-center gap-12 min-h-[500px] h-fit">
 
                 {/* Slika proizvoda */}
                 <div className="w-full h-full flex items-center justify-center md:w-1/2">

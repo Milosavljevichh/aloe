@@ -4,19 +4,19 @@ export default function ThreeFeaturedProducts() {
     return (
         <section id="deals" className="min-h-[80vh] max-w-6xl mx-auto  my-20">
             <div className="flex items-center justify-center gap-6 flex-wrap">
-                <h2 className="text-6xl whitespace-nowrap font-regular font-header opacity-95">Naša Preporuka</h2>
-                <hr className="flex-1 h-0.5 bg-black opacity-15 mt-4" />
+                <h2 className="text-4xl md:text-6xl whitespace-nowrap font-regular font-header opacity-95">Naša Preporuka</h2>
+                <hr className="hidden md:block flex-1 h-0.5 bg-black opacity-15 mt-4" />
             </div>
-            <h2 className="text-xl font-medium font-text pb-2 opacity-75 w-fit max-w-lg mt-10">
+            <h2 className="text-lg md:text-xl text-center md:text-left font-medium font-text pb-2 opacity-75 w-fit max-w-lg mt-10">
                 Pažljivo smo birali proizvode koji mogu biti potrebni svakome, bilo kada, bilo gde.
             </h2>
 
-            <div className="w-full mt-15 grid grid-cols-3 gap-6">
+            <div className="w-full mt-15 grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-6">
                 {products.map((product, idx) => (
                     <a
                         key={idx}
                         href={product.href}
-                        className="relative overflow-hidden rounded-sm group aspect-[6/7] flex shadow-xl"
+                        className="mx-8 md:mx-0 relative overflow-hidden rounded-sm group aspect-[6/7] flex shadow-xl"
                     >
                         <img
                             src={`/products/${product.image}`}

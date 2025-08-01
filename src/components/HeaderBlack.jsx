@@ -69,27 +69,7 @@ export default function HeaderBlack() {
                       </NavigationMenuLink>
                     </NavigationMenuItem>
                   ))}
-                  <NavigationMenuItem className="w-full" role="presentation" aria-hidden="true">
-                    <div
-                      role="separator"
-                      aria-orientation="horizontal"
-                      className="bg-border -mx-1 my-1 h-px"></div>
-                  </NavigationMenuItem>
-                  <NavigationMenuItem className="w-full">
-                    <NavigationMenuLink href="#" className="py-1.5">
-                      Sign In
-                    </NavigationMenuLink>
-                  </NavigationMenuItem>
-                  <NavigationMenuItem className="w-full">
-                    <Button asChild size="sm" className="mt-0.5 w-full text-left text-sm">
-                      <span className="flex items-baseline gap-2">
-                        Cart
-                        <span className="text-primary-orange-foreground/60 text-xs">
-                          2
-                        </span>
-                      </span>
-                    </Button>
-                  </NavigationMenuItem>
+                  
                 </NavigationMenuList>
               </NavigationMenu>
             </PopoverContent>
