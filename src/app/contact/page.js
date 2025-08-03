@@ -5,7 +5,7 @@ import CallCTA from "@/components/CallCTA";
 export default function Contact() {
     return (
         <main className="bg-primary-white">
-            <div className="bg-primary-white max-w-6xl mx-auto rounded-lg p-8 pt-18 grid md:grid-cols-2 gap-8">
+            <div className="bg-primary-white max-w-6xl px-4 mx-auto rounded-lg p-8 pt-18 grid md:grid-cols-2 gap-8">
 
                 {/* Left side - Title + Socials */}
                 <div className="flex flex-col justify-between">

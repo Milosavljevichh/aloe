@@ -12,7 +12,7 @@ export default function ProductPage({ params }) {
   }
 
     return (
-        <main className="max-w-6xl mx-auto px-6 pt-16">
+        <main className="max-w-6xl px-4 mx-auto px-6 pt-16">
             <div className="flex flex-col md:flex-row items-center gap-12 min-h-[500px] h-fit">
 
                 {/* Slika proizvoda */}

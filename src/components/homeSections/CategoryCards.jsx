@@ -3,13 +3,13 @@ import Link from "next/link";
 
 export default function CategoryCards() {
     return (
-        <section className="flex flex-col md:flex-row gap-6 justify-between py-8 min-h-[40vh] max-w-6xl mx-auto mt-20">
+        <section className="flex flex-col lg:flex-row gap-6 justify-between py-8 min-h-[40vh] max-w-6xl px-4 mx-auto mt-20">
             {/* Kartica 1, pretvoriti u komponentu */}
             <Link
                 href="/products"
-                className="border border-gray-300 shadow-lg transition overflow-hidden w-full md:w-[48%] h-fit md:h-48"
+                className="border border-gray-300 shadow-lg transition overflow-hidden w-full lg:w-[48%] h-fit lg:h-48"
             >
-                <div className=" flex flex-col md:flex-row border-b-2 md:border-b-0 border-t-2 border-t-solid border-green-600 h-full">
+                <div className=" flex flex-col lg:flex-row border-b-2 lg:border-b-0 border-t-2 border-t-solid border-green-600 h-full">
                     <div className="p-6 flex flex-col justify-between flex-1">
                     <div>
                         <h3 className="text-xl font-semibold text-gray-900">FREE MANGO HYDRATION KIT</h3>
@@ -20,7 +20,7 @@ export default function CategoryCards() {
                             SHOP NOW →
                         </span>
                     </div>
-                    <div className="relative w-full md:w-[40%] min-h-32 h-full md:h-auto">
+                    <div className="relative w-full lg:w-[40%] min-h-42 h-full lg:h-auto">
                         <Image
                             src="/products/argi.jpg"
                             alt="Refresh Spray"
@@ -32,9 +32,9 @@ export default function CategoryCards() {
             </Link>
             <Link
                 href="/products"
-                className="border border-gray-300 shadow-lg transition overflow-hidden w-full md:w-[48%] h-fit md:h-48"
+                className="border border-gray-300 shadow-lg transition overflow-hidden w-full lg:w-[48%] h-fit lg:h-48"
             >
-                <div className=" flex flex-col md:flex-row border-b-2 md:border-b-0 border-t-2 border-t-solid border-green-600 h-full">
+                <div className=" flex flex-col lg:flex-row border-b-2 lg:border-b-0 border-t-2 border-t-solid border-green-600 h-full">
                     <div className="p-6 flex flex-col justify-between flex-1">
                         <div>
                             <h3 className="text-xl font-semibold text-gray-900">READY, SET, REFRESH </h3>
@@ -46,7 +46,7 @@ export default function CategoryCards() {
                             SHOP NOW →
                         </span>
                     </div>
-                    <div className="relative w-full md:w-[40%] min-h-32 h-full md:h-auto">
+                    <div className="relative w-full lg:w-[40%] min-h-42 h-full lg:h-auto">
                         <Image
                             src="/products/pasta.jpg"
                             alt="Refresh Spray"

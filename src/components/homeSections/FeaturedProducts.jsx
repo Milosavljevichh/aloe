@@ -1,6 +1,6 @@
 export default function FeaturedProducts() {
     return (
-        <section className="min-h-[80vh] max-w-6xl mx-auto py-20">
+        <section className="min-h-[80vh] max-w-6xl px-4 mx-auto py-20">
             <div className="flex items-center justify-center gap-6 flex-wrap">
                 <hr className="flex-1 h-0.5 bg-black opacity-30" />
                 <h2 className="text-4xl whitespace-nowrap font-medium font-header pb-2 opacity-95">Naša Preporuka</h2>
