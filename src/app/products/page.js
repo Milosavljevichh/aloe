@@ -9,6 +9,8 @@ export default function Products() {
     const [selectedCategory, setSelectedCategory] = useState("");
     const [filter, setFilter] = useState("");
     const [priceRange, setPriceRange] = useState([])
+    const [isDashboardOpen, setIsDashboardOpen] = useState(false);
+
     const maxRange = 10000;
 
     //izdvajanje svake kategorije samo jednom
@@ -70,7 +72,25 @@ export default function Products() {
 
     return (
         <main className="max-w-6xl px-4 bg-primary-white relative mx-auto flex gap-4 min-h-full">
-            <Dashboard selectedFilter={filter} resetFilters={resetFilters} maxRange={maxRange} categories={categories} selectCategory={selectCategory} selectFilter={selectFilter} selectedCategory={selectedCategory} changePriceRange={changePriceRange} />
+            <button
+                className="md:hidden absolute top-4 right-4 z-50 bg-primary-orange text-white px-3 py-2 rounded"
+                onClick={() => setIsDashboardOpen(!isDashboardOpen)}
+            >
+                ☰ Filteri
+            </button>
+
+            <Dashboard
+                selectedFilter={filter}
+                resetFilters={resetFilters}
+                maxRange={maxRange}
+                categories={categories}
+                selectCategory={selectCategory}
+                selectFilter={selectFilter}
+                selectedCategory={selectedCategory}
+                changePriceRange={changePriceRange}
+                isOpen={isDashboardOpen}
+                setIsOpen={setIsDashboardOpen}
+            />
             <ProductsContainer products={categorizedProducts} />
         </main>
     )
