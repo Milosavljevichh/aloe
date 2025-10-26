@@ -1,4 +1,5 @@
-import { useId } from "react"
+"use client"
+import { useEffect, useId, useState } from "react"
 import { SearchIcon } from "lucide-react"
 
 import Logo from "@/components/logo"
@@ -15,6 +16,7 @@ import {
   PopoverContent,
   PopoverTrigger,
 } from "@/components/ui/popover"
+import { usePathname, useRouter, useSearchParams } from "next/navigation"
 
 // Navigation links array to be used in both desktop and mobile menus
 const navigationLinks = [
@@ -26,6 +28,30 @@ const navigationLinks = [
 
 export default function HeaderBlack() {
   const id = useId()
+  const pathname = usePathname()
+  const router = useRouter()
+  const searchParams = useSearchParams()
+  const visibleOnProducts = pathname?.startsWith('/products')
+  const [searchText, setSearchText] = useState("")
+
+  // Initialize from URL on mount and when URL changes (e.g. back/forward)
+  useEffect(() => {
+    const q = searchParams.get('q') || ''
+    setSearchText(q)
+  }, [searchParams])
+
+  // Debounced update of URL when typing
+  useEffect(() => {
+    if (!visibleOnProducts) return
+    const t = setTimeout(() => {
+      const params = new URLSearchParams(searchParams.toString())
+      if (searchText && searchText.trim()) params.set('q', searchText.trim())
+      else params.delete('q')
+      const qs = params.toString()
+      router.replace(qs ? `${pathname}?${qs}` : pathname, { scroll: false })
+    }, 250)
+    return () => clearTimeout(t)
+  }, [searchText, visibleOnProducts, pathname, router, searchParams])
 
   return (
     <header className="max-w-6xl px-4 border-b lg:px-6 w-[95vw] mx-auto sticky top-0 min-h-16 h-fit z-999 bg-primary-white">
@@ -95,18 +121,32 @@ export default function HeaderBlack() {
             </NavigationMenu>
           </div>
         </div>
-        {/* Right side */}
-        <div className="flex items-center gap-2 max-lg:hidden">
-          {/* <Button asChild size="sm" className="text-sm">
-            <a href="#">
-              <span className="flex items-baseline gap-2">
-                Cart
-                <span className="text-primary-orange-foreground/60 text-xs">2</span>
-              </span>
-            </a>
-          </Button> */}
+        {/* Right side (desktop) */}
+        <div className="items-center gap-2 max-lg:hidden flex">
+          {visibleOnProducts && (
+            <div className="w-72">
+              <Input
+                value={searchText}
+                onChange={(e) => setSearchText(e.target.value)}
+                placeholder="Pretraga proizvoda..."
+                aria-label="Pretraga proizvoda"
+              />
+            </div>
+          )}
         </div>
       </div>
+
+      {/* Mobile search row */}
+      {visibleOnProducts && (
+        <div className="lg:hidden pb-3 px-1">
+          <Input
+            value={searchText}
+            onChange={(e) => setSearchText(e.target.value)}
+            placeholder="Pretraga proizvoda..."
+            aria-label="Pretraga proizvoda"
+          />
+        </div>
+      )}
     </header>
   );
 }

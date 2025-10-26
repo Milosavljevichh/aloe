@@ -12,7 +12,7 @@ export default function ProductPage({ params }) {
   }
 
     return (
-        <main className="max-w-6xl px-4 mx-auto px-6 pt-16">
+        <main className="max-w-6xl mx-auto px-6 pt-16">
             <div className="flex flex-col md:flex-row items-center gap-12 min-h-[500px] h-fit">
 
                 {/* Slika proizvoda */}
@@ -42,17 +42,17 @@ export default function ProductPage({ params }) {
                     </p>
 
                     {/* Istaknute prednosti */}
-                    <ul className="list-disc list-inside space-y-2 text-sm text-gray-600">
+                    {/* <ul className="list-disc list-inside space-y-2 text-sm text-gray-600">
                         <li>Zamislite da rasečete list aloje i da konzumirate gel direktno iz biljke. Naš Forever Aloe Vera Gel je nešto najbliže originalu.</li>
                         <li>99.7% čistog aloe vera gela</li>
                         <li>Bez konzervansa</li>
-                    </ul>
+                    </ul> */}
 
                     {/* CTA */}
                     <button
                         className="mt-4 bg-primary-orange text-white py-3 px-6 rounded-lg hover:bg-orange-600 transition duration-200 text-sm font-medium w-fit"
                     >
-                        Dodaj u korpu
+                        Poruči
                     </button>
                 </div>
             </div>

@@ -18,7 +18,7 @@ export default function ProductCard({name, description, category, image, price})
                     <h2 className="card-title font-header">
                         {name}
                     </h2>
-                    <p className="font-text">{description}</p>
+                    {/* <p className="font-text">{description}</p> */}
                     <div className="card-actions justify-between items-center mt-2">
                         <div className="border border-primary-orange rounded-sm px-4 text-primary-orange font-medium">{category}</div>
                         <div className="text-primary-orange font-bold text-lg">{price}</div>

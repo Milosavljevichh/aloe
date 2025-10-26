@@ -1,9 +1,9 @@
 import Select from "../PriceSelect";
 import PriceSlider from "../PriceSlider";
 import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 
-export default function Dashboard({ selectedFilter, categories, selectCategory, selectFilter, selectedCategory, changePriceRange, minRange, maxRange, resetFilters, isOpen, setIsOpen, searchQuery, setSearchQuery }) {
+export default function Dashboard({ selectedFilter, categories, selectCategory, selectFilter, selectedCategory, changePriceRange, minRange, maxRange, resetFilters, isOpen, setIsOpen }) {
 
     const filterOptions = [{
         text: 'Bez filtera',
@@ -37,37 +37,35 @@ export default function Dashboard({ selectedFilter, categories, selectCategory, 
                 </button>
             </div>
 
-            {/* Search */}
-            <div className="my-4">
-                <Input
-                    type="text"
-                    value={searchQuery}
-                    onChange={(e) => setSearchQuery(e.target.value)}
-                    placeholder="Pretraga proizvoda..."
-                    aria-label="Pretraga proizvoda"
-                />
-            </div>
+            {/* Search moved to header on products page */}
 
-            <ul className="divide-y divide-gray-200 border border-gray-200 shadow-sm mb-4">
-                {categories.map((category) => (
-                    <li key={category}>
-                        <button
-                            onClick={() => {
-                                selectCategory(category);
-                                setIsOpen(false); // zatvori meni na mobilnom
-                            }}
-                            className={
-                                "w-full text-left px-4 py-2 hover:cursor-pointer transition duration-200" +
-                                (selectedCategory === category
-                                    ? " bg-primary-orange text-primary-white font-medium"
-                                    : "")
-                            }
-                        >
-                            {category}
-                        </button>
-                    </li>
-                ))}
-            </ul>
+            <Accordion type="single" collapsible defaultValue="categories">
+                <AccordionItem value="categories">
+                    <AccordionTrigger>Kategorije</AccordionTrigger>
+                    <AccordionContent>
+                        <ul className="divide-y divide-gray-200 border border-gray-200 shadow-sm mb-4">
+                            {categories.map((category) => (
+                                <li key={category}>
+                                    <button
+                                        onClick={() => {
+                                            selectCategory(category);
+                                            setIsOpen(false); // zatvori meni na mobilnom
+                                        }}
+                                        className={
+                                            "w-full text-left px-4 py-2 hover:cursor-pointer transition duration-200" +
+                                            (selectedCategory === category
+                                                ? " bg-primary-orange text-primary-white font-medium"
+                                                : "")
+                                        }
+                                    >
+                                        {category}
+                                    </button>
+                                </li>
+                            ))}
+                        </ul>
+                    </AccordionContent>
+                </AccordionItem>
+            </Accordion>
 
             <Select setFilter={selectFilter} options={filterOptions} selectedFilter={selectedFilter} />
             <PriceSlider changePriceRange={changePriceRange} minRange={minRange} maxRange={maxRange} resetFilters={resetFilters} />

@@ -1,5 +1,6 @@
 'use client'
 import { useState, useEffect } from 'react';
+import { useSearchParams } from 'next/navigation';
 import products from '../../data/allProducts.json';
 import Dashboard from '@/components/products/Dashboard';
 import ProductsContainer from '@/components/products/ProductsContainer';
@@ -9,7 +10,6 @@ export default function Products() {
     const [selectedCategory, setSelectedCategory] = useState("");
     const [filter, setFilter] = useState("");
     const [priceRange, setPriceRange] = useState([])
-    const [searchQuery, setSearchQuery] = useState("");
     const [isDashboardOpen, setIsDashboardOpen] = useState(false);
     const [minRange, setMinRange] = useState(Infinity);
     const [maxRange, setMaxRange] = useState(0);
@@ -36,7 +36,8 @@ export default function Products() {
         .toLowerCase()
         .normalize('NFD')
         .replace(/[\u0300-\u036f]/g, '');
-    const q = normalize(searchQuery).trim();
+    const searchParams = useSearchParams();
+    const q = normalize(searchParams.get('q') || '').trim();
     if (q) {
         categorizedProducts = categorizedProducts.filter(p => {
             const name = normalize(p.productName);
@@ -157,8 +158,6 @@ export default function Products() {
                 selectFilter={selectFilter}
                 selectedCategory={selectedCategory}
                 changePriceRange={changePriceRange}
-                searchQuery={searchQuery}
-                setSearchQuery={setSearchQuery}
                 isOpen={isDashboardOpen}
                 setIsOpen={setIsDashboardOpen}
             />

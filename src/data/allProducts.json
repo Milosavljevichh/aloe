@@ -104,14 +104,6 @@
         "productCategory": "Napitci"
     },
     {
-        "productName": "Tripack Argi+ & Aloe mini",
-        "productDescription": "",
-        "productPrice": "5,901,59RSD",
-        "productImage": "/pictures/product_cover/.Forever_Tripack.png",
-        "productLink": "/products/tripack-argi--aloe-mini",
-        "productCategory": "Napitci"
-    },
-    {
         "productName": "Forever Marine Collagen",
         "productDescription": "",
         "productPrice": "12,655,50RSD",
@@ -145,7 +137,7 @@
     },
     {
         "productName": "Forever AloeTurm",
-        "productDescription": "",
+        "productDescription": "Sa prirodnom aromom mente, Forever AloeTurm™ ne samo da doprinosi zdravlju vašeg imuniteta, već pruža i umirujući osećaj u ustima. Koristeći inovativnu tehnologiju, svaka Forever AloeTurm™ hidrogel pastila se lako rastvara u ustima tako da je telo direktno apsorbuje, rešavajući jedan od najvećih izazova kurkume: njenu nisku apsorpciju u telu.",
         "productPrice": "594,72RSD",
         "productImage": "/pictures/product_cover/Aloe_Turm.jpg",
         "productLink": "/products/forever-aloeturm",
@@ -153,7 +145,7 @@
     },
     {
         "productName": "Forever AloeTurm 10 Pack",
-        "productDescription": "",
+        "productDescription": "Paket sadrži 10 komada Forever AloeTurm (676). Paket od 10 komada je snižen za 5% i broj bodova proporcionalno umanjen.",
         "productPrice": "9,115,39RSD",
         "productImage": "/pictures/product_cover/Aloe_Turm_10.jpg",
         "productLink": "/products/forever-aloeturm-10-pack",
@@ -161,7 +153,7 @@
     },
     {
         "productName": "Forever Absorbent-D",
-        "productDescription": "",
+        "productDescription": "Lak način da unesete vašu esencijalnu dnevnu dozu vitamina D putem praktične tablete za žvakanje. Savršena kombinacija praktičnosti i esencijalnih hranljivih sastojaka za telo sa vašom esencijalnom dnevnom dozom vitamina D, poboljšano antioksidansima vitaminom E.",
         "productPrice": "2,099,87RSD",
         "productImage": "/pictures/product_cover/D_Vitamin.Jpg",
         "productLink": "/products/forever-absorbent-d",
@@ -169,7 +161,7 @@
     },
     {
         "productName": "Forever Immune Gummy",
-        "productDescription": "",
+        "productDescription": "Doprinesite svom imunološkom sistemu uz Forever Immune Gummy. Ove gumene bombone na biljnoj bazi sadrže mešavinu deset vitamina i cinka, idealne su za sve koji vole praktične dodatke ishrani u formi za žvakanje.",
         "productPrice": "5,455,73RSD",
         "productImage": "/pictures/product_cover/Immuno_gummy.jpg",
         "productLink": "/products/forever-immune-gummy",
@@ -177,7 +169,7 @@
     },
     {
         "productName": "Forever Active Pro-B",
-        "productDescription": "",
+        "productDescription": "Bez soje i drugih alergena, pruža podršku vašem probavnom sistemu. Forever Active Pro-B sadrži 6 sojeva bakterija sa preko 8 milijardi CFU po dozi koji su zamrznuti suvim putem zbog zaštite u stabilnosti u trajanju.",
         "productPrice": "5,849,55RSD",
         "productImage": "/pictures/product_cover/PRO_B.jpg",
         "productLink": "/products/forever-active-pro-b",
@@ -185,7 +177,7 @@
     },
     {
         "productName": "Forever Artic Sea",
-        "productDescription": "",
+        "productDescription": "Forever Arctic Sea sadrži savršeno uravnoteženu mešavinu prirodnog ribljeg ulja, ulja lignji i oleinskog maslinovog ulja, pružajući idealan odnos esencijalnih masnih kiselina EPA i DHA. Podržava funkciju srca i mozga*.",
         "productPrice": "5,436,04RSD",
         "productImage": "/pictures/product_cover/Artic_Sea.jpg",
         "productLink": "/products/forever-artic-sea",
@@ -193,7 +185,7 @@
     },
     {
         "productName": "Forever Daily",
-        "productDescription": "",
+        "productDescription": "Forever Daily vitamini i minerali sa AOS Complexom. Ova vitaminsko mineralna formula kreirana je u kombinaciji sa Forever Living originalnim aloja oligosaharidnim (AOS) kompleksom. Forever Daily sa AOS pruža izbalansiranu mešavinu 55 hranljivih materija, uključujući najznačajnije vitamine i minerale.",
         "productPrice": "3,323,51RSD",
         "productImage": "/pictures/product_cover/Forever_Daily.jpg",
         "productLink": "/products/forever-daily",
@@ -201,7 +193,7 @@
     },
     {
         "productName": "Argi+",
-        "productDescription": "",
+        "productDescription": "Ovo ukusno i hranljivo sportsko piće sa ukusom bobičastog voća sadrži pet grama L-arginina po porciji, kao i vitamine, uključujući vitamin C i vitamin D. Praktično pakovanje za energiju i performanse.",
         "productPrice": "10,512,03RSD",
         "productImage": "/pictures/product_cover/Argi_+.jpg",
         "productLink": "/products/argi",
@@ -209,7 +201,7 @@
     },
     {
         "productName": "Forever Absorbent-C",
-        "productDescription": "",
+        "productDescription": "Vitamin C doprinosi normalnoj funkciji imunog sistema i smanjenju umora i iscrpljenosti. Vitamin C se već dugo povezuje s dobrim zdravljem i povećanjem otpornosti organizama. Dnevna doza od 3 tablete proizvoda sadrži 180 mg vitamina C i 1500 mg ovsenih mekinja.",
         "productPrice": "3,364RSD",
         "productImage": "/pictures/product_cover/C_Vitamin.jpg",
         "productLink": "/products/forever-absorbent-c",
@@ -217,7 +209,7 @@
     },
     {
         "productName": "Forever Multi-Maca",
-        "productDescription": "",
+        "productDescription": "Forever Multi-Maca kombinuje legendarnu peruansku maku sa Q10, L-argininom i drugim moćnim biljnim sastojcima. Ekskluzivna mešavina make i drugih prirodnih sastojaka namenjena muškarcima i ženama.",
         "productPrice": "5,054,89RSD",
         "productImage": "/pictures/product_cover/Multi_Maca.jpg",
         "productLink": "/products/forever-multi-maca",
@@ -225,7 +217,7 @@
     },
     {
         "productName": "Forever Kids",
-        "productDescription": "",
+        "productDescription": "Ove zabavne, ukusne, žvakaće multivitaminske tablete pružaju deci neophodne hranljive materije za svaki dan. Kompleksna mešavina fitonutrijenata dobijenih iz sirovog brokolija, spanaća, šargarepe, cvekle i još šesnaest drugih vrsta voća i povrća.",
         "productPrice": "2,088,62RSD",
         "productImage": "/pictures/product_cover/Forever_kids.jpg",
         "productLink": "/products/forever-kids",
@@ -233,7 +225,7 @@
     },
     {
         "productName": "Forever Garlic-Thyme",
-        "productDescription": "",
+        "productDescription": "Otkrijte moć Forever Garlic-Thyme dodatka ishrani koji kombinuje beli luk i majčinu dušicu, tradicionalno korišćene hiljadama godina. Meka kapsula obezbeđuje eliminaciju neprijatnog mirisa belog luka.",
         "productPrice": "3,481,04RSD",
         "productImage": "/pictures/product_cover/Garlic_Thyme.jpg",
         "productLink": "/products/forever-garlic-thyme",
@@ -241,7 +233,7 @@
     },
     {
         "productName": "forever B-12 Plus",
-        "productDescription": "",
+        "productDescription": "Forever B12 Plus pruža izvanrednu kombinaciju esencijalnih vitamina. Forever B12 Plus kombinuje vitamin B12 s folnom kiselinom. Vitamin B12 doprinosi normalnom stvaranju crvenih krvnih zrnaca i normalnoj funkciji imunog sistema.",
         "productPrice": "2,946,57RSD",
         "productImage": "/pictures/product_cover/B_12_Plus.jpg",
         "productLink": "/products/forever-b-12-plus",
@@ -249,7 +241,7 @@
     },
     {
         "productName": "Forever Lycium Plus",
-        "productDescription": "",
+        "productDescription": "Uživajte u blagodetima Lycium Plus biljne formule bez brige. Forever Lycium Plus je dodatak ishrani sa plodom licijuma i ekstraktom korena likviricije. Licijum je kinesko voće koje se već vekovima koristi u ishrani.",
         "productPrice": "6,337,60RSD",
         "productImage": "/pictures/product_cover/Lycium_plus.jpg",
         "productLink": "/products/forever-lycium-plus",
@@ -257,7 +249,7 @@
     },
     {
         "productName": "Forever Nature-Min",
-        "productDescription": "",
+        "productDescription": "Obezbedite svoje telo esencijalnim mineralima uz Forever Nature-Min. Budući da naše telo ne može da proizvodi minerale, moramo ih obezbediti iz prehrambenih proizvoda ili suplemenata. Forever Nature-Min je napredna multimineralna formula koja sadrži minerale: kalcijum, gvožđe, fosfor, jod, magnezijum, cink, selen, bakar, mangan i molibden.",
         "productPrice": "3,481,04RSD",
         "productImage": "/pictures/product_cover/Forefer_Nature_min.jpg",
         "productLink": "/products/forever-nature-min",
@@ -265,7 +257,7 @@
     },
     {
         "productName": "Forever CardioHealth",
-        "productDescription": "",
+        "productDescription": "Forever CardioHealth sa CoQ10 je jedinstvena formula koja se rastvara u Aloe Vera Gelu, obogaćena vitaminima, mineralima, koenzimom Q10 i biljnim ekstraktima, pružajući podršku kardiovaskularnom sistemu. Vitamin C doprinosi normalnom formiranju kolagena za normalnu funkciju krvnih sudova.",
         "productPrice": "4,769,37RSD",
         "productImage": "/pictures/product_cover/Forever_CardioHealth.jpg",
         "productLink": "/products/forever-cardiohealth",
@@ -273,7 +265,7 @@
     },
     {
         "productName": "Forever Immublend",
-        "productDescription": "",
+        "productDescription": "Pomozite u jačanju odbrambenog sistema organizma uz Forever Immublend. Dodatak ishrani za podršku imunitetu sa moćnom kombinacijom prirodnih biljnih sastojaka i dokazanih sastojaka. Bogat vitaminima C, D i cinkom, koji doprinose normalnoj funkciji imunog sistema.",
         "productPrice": "4,094,26RSD",
         "productImage": "/pictures/product_cover/Forever_Immublend.jpg",
         "productLink": "/products/forever-immublend",
@@ -281,7 +273,7 @@
     },
     {
         "productName": "Vitolize Women",
-        "productDescription": "",
+        "productDescription": "Ova pažljivo odabrana mešavina biljaka, vitamina i minerala osmišljena je tako da odgovara specifičnim potrebama žena. Uravnotežena podrška prilagođena potrebama žena sa mešavinom biljnih sastojaka, uključujući pasifloru i bobice šiandre.",
         "productPrice": "5,258,83RSD",
         "productImage": "/pictures/product_cover/Vitolize_Women.jpeg",
         "productLink": "/products/vitolize-women",
@@ -289,7 +281,7 @@
     },
     {
         "productName": "vitolize Men",
-        "productDescription": "",
+        "productDescription": "Ova mešavina biljaka, vitamina i minerala osmišljena je s posebnim fokusom na potrebe muškaraca. Muškarci, vreme je da razmislite o dodatku ishrani prilagođenom baš vama. Bogat vitaminima D, E, C, B6, cinkom i selenom.",
         "productPrice": "5,132,24RSD",
         "productImage": "/pictures/product_cover/Vitolize_men.jpg",
         "productLink": "/products/vitolize-men",
@@ -297,7 +289,7 @@
     },
     {
         "productName": "Forever fiber ",
-        "productDescription": "",
+        "productDescription": "Forever Fiber pruža 5 grama rastvorljivih vlakana u jednostavnom pakovanju. Forever Fiber obezbeđuje 5 grama rastvorljivih vlakana u pakovanju lakom za upotrebu. Ovo je ekvivalent 300 grama integralnog pirinča ili 2 parčeta integralnog tosta – bez ugljenih hidrata i kalorija!",
         "productPrice": "3,862,19RSD",
         "productImage": "/pictures/product_cover/Forever_Fiber.jpg",
         "productLink": "/products/forever-fiber-",
@@ -305,7 +297,7 @@
     },
     {
         "productName": "Forever focus",
-        "productDescription": "",
+        "productDescription": "Ostanite oštroumni, ostanite fokusirani. Kombinujući tradicionalne biljke, vitamine i minerale sa klinički proučenim Cognizin®-om: ne prolazite samo kroz dan, preuzmite kontrolu nad njim uz Forever Focus. Sadrži Cognizin®, klinički proučenu formu citoholina.",
         "productPrice": "12,928,36RSD",
         "productImage": "/pictures/product_cover/Forever_Focus.jpg",
         "productLink": "/products/forever-focus",
@@ -313,7 +305,7 @@
     },
     {
         "productName": "Forever iVision",
-        "productDescription": "",
+        "productDescription": "Za normalan vid u digitalnom dobu. U današnje digitalno doba, naše oči se naprežu kao nikada do sada. Forever iVision™ je dodatak ishrani koji je osmišljen da doprinosi u održavanju normalnog vida i zaštiti od oksidativnog stresa. Sadrži lutein, zeaksantin, ekstrakt borovnice, vitamine A, C i E i mineral cink.",
         "productPrice": "5,600,60RSD",
         "productImage": "/pictures/product_cover/Forever_iVision.jpg",
         "productLink": "/products/forever-ivision",
@@ -321,7 +313,7 @@
     },
     {
         "productName": "Forever Calcium",
-        "productDescription": "",
+        "productDescription": "Uz Forever Calcium obezbedite potrebne nutrijente za zdravlje kostiju. Forever Calcium obezbeđuje kalcijum, magnezijum, cink, mangan, bakar i vitamine C i D, koji doprinose održavanju odgovarajuće strukture i funkcije kostiju. Vitamin D, kalcijum, magnezijum i mangan doprinose održavanju normalnih kostiju.",
         "productPrice": "4,635,76RSD",
         "productImage": "/pictures/product_cover/Forever_Calcium.jpg",
         "productLink": "/products/forever-calcium",
@@ -329,7 +321,7 @@
     },
     {
         "productName": "Forever Active HA",
-        "productDescription": "",
+        "productDescription": "Forever Active HA dodatak ishrani sa hijaluronskom kiselinom, uljem iz korena đumbira, ekstraktom kurkume i cinkom za zdravu kožu, kosu i nokte. Cink doprinosi održavanju normalne kože, kose i noktiju*.",
         "productPrice": "5,780,63RSD",
         "productImage": "/pictures/product_cover/Forever_Active_HA.jpg",
         "productLink": "/products/forever-active-ha",
@@ -337,7 +329,7 @@
     },
     {
         "productName": "Forever Move (EMS Complex)",
-        "productDescription": "",
+        "productDescription": "Forever Move™ je dodatak ishrani koji sadrži NEM® i ekstrakt rizoma kurkume* NEM® je sastojak dobijen iz hrane, koji se nalazi u jajima i sadrži kolagen, glukozamin, hondroitin i hijaluronsku kiselinu. Forever Move™ dolazi u obliku mekih kapsula, jednostavnih za konzumaciju.",
         "productPrice": "9,943,81RSD",
         "productImage": "/pictures/product_cover/Forever_Move.jpg",
         "productLink": "/products/forever-move-ems-complex",
@@ -345,7 +337,7 @@
     },
     {
         "productName": "Forever Sensatiable",
-        "productDescription": "",
+        "productDescription": "Ukusna tableta za žvakanje koja sadrži ovsene mekinje u pahuljicama i hidrolizat proteina kvasca, Forever Sensatiable je vaš idealan odabir kada tražite slatko olakšanje od iskušenja tokom celog dana.",
         "productPrice": "3,870,63RSD",
         "productImage": "/pictures/product_cover/Forever_Sensatiable.jpg",
         "productLink": "/products/forever-sensatiable",
@@ -353,7 +345,7 @@
     },
     {
         "productName": "Forever Fields of Greens",
-        "productDescription": "",
+        "productDescription": "Forever Fields of Greens Fields of Greens sadrži visok izvor vlakana zahvaljujući sastojcima poput ječmene trave, pšenične trave i lucerke. Prirodna snaga zelenih biljaka - pšenična trava, ječmena trava i lucerka u kombinaciji sa kajenskom paprikom i medom.",
         "productPrice": "2,313,66RSD",
         "productImage": "/pictures/product_cover/Forever_FoG.jpg",
         "productLink": "/products/forever-fields-of-greens",
@@ -361,7 +353,7 @@
     },
     {
         "productName": "Forever Bee Pollen",
-        "productDescription": "",
+        "productDescription": "Forever Bee Pollen je potpuno prirodan izvor energije i ishrane koji će vam pomoći da imate više energije tokom dana. Polen je plodni prah cveća. Pčele ga sakupljaju i odnose u svoje košnice za hranu. Bez polena ne bi postojale biljke, drveće i cveće.",
         "productPrice": "2,924,07RSD",
         "productImage": "/pictures/product_cover/Forever_Bee_Polen.jpeg",
         "productLink": "/products/forever-bee-pollen",
@@ -369,7 +361,7 @@
     },
     {
         "productName": "Forever Bee Propolis",
-        "productDescription": "",
+        "productDescription": "Forever Bee Propolis® je prirodni dodatak napravljen od supstance koje pčele koriste za jačanje i zaštitu svoje košnice. Kada pomislimo na pčele, najpre nam padnu na um med i polen. Ali još je jedna materija od velike važnosti a to je propolis, kog čini lepljiva smola koju izlučuje drveće.",
         "productPrice": "6,109,75RSD",
         "productImage": "/pictures/product_cover/Forever_Bee_Propolis.jpeg",
         "productLink": "/products/forever-bee-propolis",
@@ -377,7 +369,7 @@
     },
     {
         "productName": "Forever Rozal Jelly",
-        "productDescription": "",
+        "productDescription": "Matični mleč je mlečno izlučenje dobijeno iz ždrela pčele radilice. Ova pčelinja 'super hrana' posebno je pomešana sa enzimima i daje se za hranu pčeli predodređenoj da postane matica. To je ekskluzivna hrana matice tokom njenog plodnog života i omogućuje joj da izleže do 3000 jajašaca dnevno tokom njenog šestogodišnjeg životnog veka.",
         "productPrice": "6,324,94RSD",
         "productImage": "/pictures/product_cover/Forever_Royal_Jelly.jpeg",
         "productLink": "/products/forever-rozal-jelly",
@@ -385,7 +377,7 @@
     },
     {
         "productName": "Forever Lite Ultra Vanilla",
-        "productDescription": "",
+        "productDescription": "Forever Lite Ultra sa aminoteinom je visokoproteinski, niskoenergetski dodatak vašem zdravom Forever Living načinu života. Prirodnog ukusa, proteini biljnog porekla sa ukusom vanile. Kao jednostavan šejk za doručak ili večeru obezbeđuje 18 esencijalnih vitamina i minerala.",
         "productPrice": "4,168,80RSD",
         "productImage": "/pictures/product_cover/Forever_Lite_Ultra_Vanilla.png",
         "productLink": "/products/forever-lite-ultra-vanilla",
@@ -393,7 +385,7 @@
     },
     {
         "productName": "Forever Lite Ultra Chocolate",
-        "productDescription": "",
+        "productDescription": "Uživajte u ukusu i prednostima ove napredne formule. Forever Lite Ultra sa aminoteinom je visokoproteinski, niskoenergetski dodatak vašem zdravom Forever Living načinu života. Prirodnog ukusa, proteini biljnog porekla sa ukusom čokolade.",
         "productPrice": "4,168,80RSD",
         "productImage": "/pictures/product_cover/Forever_Lite_Ultra_Chocolate.png",
         "productLink": "/products/forever-lite-ultra-chocolate",
@@ -401,7 +393,7 @@
     },
     {
         "productName": "Foreveer Plant Protein",
-        "productDescription": "",
+        "productDescription": "Uz 17 grama proteina po porciji, Forever Plant Protein daje osećaj sitosti, pospešuje mišićnu masu i doprinosi zdravlju koštanog sistema uz vegansku formulu bez mleka i soje. Ima prirodan ukus vanile sa glatkom, nezrnastom teksturom, za razliku od mnogih biljnih proteina.",
         "productPrice": "8,630,16RSD",
         "productImage": "/pictures/product_cover/Forever_Plant_Prootein.jpg",
         "productLink": "/products/foreveer-plant-protein",
@@ -409,7 +401,7 @@
     },
     {
         "productName": "Forever Garcinia Plus",
-        "productDescription": "",
+        "productDescription": "Forever Garcinia Plus sadrži hrom, koji doprinosi normalnom metabolizmu makronutrijenata i održavanju normalnog nivoa glukoze u krvi. Garcinia Cambogia je drvo poreklom iz jugoistočne Azije, koje daje plod cenjen zbog svojih kulinarskih i korisnih svojstava.",
         "productPrice": "6,337,60RSD",
         "productImage": "/pictures/product_cover/Forever_Garcinia_Plus.png",
         "productLink": "/products/forever-garcinia-plus",
@@ -417,7 +409,7 @@
     },
     {
         "productName": "Forever Therm",
-        "productDescription": "",
+        "productDescription": "Forever Therm je dodatak ishrani namenjen osobama na režimu za mršavljenje. Forever Therm je dodatak ishrani sa vitaminom C, vitaminima B grupe i ekstraktima lista zelenog čaja, semena guarane i zrna zelene kafe namenjen osobama na režimu za mršavljenje.",
         "productPrice": "5,762,35RSD",
         "productImage": "/pictures/product_cover/Forever_Therm.png",
         "productLink": "/products/forever-therm",
@@ -425,7 +417,7 @@
     },
     {
         "productName": "Forever Lean",
-        "productDescription": "",
+        "productDescription": "Forever Lean je dodatak ishrani nemenjen osoboma na režimu za mršavljenje. Forever Lean je dodatak ishrani sa ekstraktom lista nopal kaktusa, ekstraktom zrna pasulja i hromom za osobe na dijeti za mršavljenje. Hrom doprinosi normalnom metabolizmu makronutrijenata i održavanju normalnog nivoa glukoze u krvi.*",
         "productPrice": "5,803,13RSD",
         "productImage": "/pictures/product_cover/Forever_Lean.png",
         "productLink": "/products/forever-lean",
@@ -433,7 +425,7 @@
     },
     {
         "productName": "Forever FastBreak",
-        "productDescription": "",
+        "productDescription": "Dodatak ishrani sa vitaminima i mineralima za nadoknadu energetskih potreba. Vitamini B1, B2, B6, B12, C, Biotin, niacin i pantotenska kiselina i minerali: kalcijum, magnezijum, bakar, gvožđe, mangan i jod doprinose održavanju normalnog energetskog metabolizma.*",
         "productPrice": "707,46RSD",
         "productImage": "/pictures/product_cover/Forever_Fast_Break.png",
         "productLink": "/products/forever-fastbreak",
@@ -441,7 +433,7 @@
     },
     {
         "productName": "Forever Bright Toothgel",
-        "productDescription": "",
+        "productDescription": "Napredna formula za pranje zuba za celu porodicu. Forever Bright pasta za zube je blaga i efikasna jer sadrži prirodne sastojke. Deca i odrasli će uživati u kombinaciji prirodnih aroma nane i metvice, uz bogatu i penastu teksturu.",
         "productPrice": "1,462,74RSD",
         "productImage": "/pictures/product_cover/Forever_Bright_toothgel.png",
         "productLink": "/products/forever-bright-toothgel",
@@ -449,7 +441,7 @@
     },
     {
         "productName": "Aloe Lips",
-        "productDescription": "",
+        "productDescription": "Forever Aloe Lips sa jojobom pruža nežnu negu vašim usnama. Umirujuća svojstva aloe vere idealna su za negu vaših usana. Aloe vera i jojoba ulje čine vaše usne mekim i glatkim.",
         "productPrice": "666,67RSD",
         "productImage": "/pictures/product_cover/Aloe_Lips.jpg",
         "productLink": "/products/aloe-lips",
@@ -457,7 +449,7 @@
     },
     {
         "productName": "Aloe Lips 12 Pack",
-        "productDescription": "",
+        "productDescription": "Paket sadrži 12 komada Aloe Lips (71). Paket od 12 komada je snižen za 5% i broj bodova proporcionalno umanjen.",
         "productPrice": "8,000,04RSD",
         "productImage": "/pictures/product_cover/Aloe_Lips_12.jpg",
         "productLink": "/products/aloe-lips-12-pack",
@@ -465,7 +457,7 @@
     },
     {
         "productName": "Aloe Liquid Soap",
-        "productDescription": "",
+        "productDescription": "Forever Aloe Liquid Sapun je blag, koncentrisani tečni sapun koji se lako ispire i ostavlja kožu čistom i svežom. Ova bogata formula sadrži aloe veru i vitamin E, koji pomažu u održavanju prirodne vlažnosti kože.",
         "productPrice": "2,992,99RSD",
         "productImage": "/pictures/product_cover/Aloe_Liquid_Soap.jpg",
         "productLink": "/products/aloe-liquid-soap",
@@ -473,7 +465,7 @@
     },
     {
         "productName": "Aloe Avocado Face & Body Soap",
-        "productDescription": "",
+        "productDescription": "Forever Aloe Avocado Face & Body Soap je blag sapun za lice i telo koji sadrži aloe veru i avokado. Ova bogata formula pomaže u održavanju prirodne vlažnosti kože, ostavljajući je čistom i glatkom.",
         "productPrice": "933,90RSD",
         "productImage": "/pictures/product_cover/Aloe_Avocado_Soap.jpg",
         "productLink": "/products/aloe-avocado-face--body-soap",
@@ -481,7 +473,7 @@
     },
     {
         "productName": "Forever Hand Sanitizer",
-        "productDescription": "",
+        "productDescription": "Forever Hand Sanitizer je brz, prirodan način za dezinfekciju ruku bez vode. Ova formula sadrži aloe veru i vitamin E, koji pomažu u održavanju prirodne vlažnosti kože.",
         "productPrice": "589,31RSD",
         "productImage": "/pictures/product_cover/Forever_Hand_Sanitizer.png",
         "productLink": "/products/forever-hand-sanitizer",
@@ -489,7 +481,7 @@
     },
     {
         "productName": "Aloe Ever-Shield Deodorant",
-        "productDescription": "",
+        "productDescription": "Forever Aloe Ever-Shield Deodorant je prirodni dezodorans koji štiti od neprijatnog mirisa bez oštećenja kože. Ova formula sadrži aloe veru i vitamin E, koji pomažu u održavanju prirodne vlažnosti kože.",
         "productPrice": "1375,54RSD",
         "productImage": "/pictures/product_cover/Aloe_Deodorant.jpg",
         "productLink": "/products/aloe-ever-shield-deodorant",
@@ -497,7 +489,7 @@
     },
     {
         "productName": "Gentleman's Pride",
-        "productDescription": "",
+        "productDescription": "Forever Gentleman's Pride je luksuzni kozmetički set za muškarce koji sadrži brijajući kremu, losion posle brijanja i parfem. Ova bogata formula pomaže u održavanju prirodne vlažnosti kože, ostavljajući je glatkom i svežom.",
         "productPrice": "2,849,53RSD",
         "productImage": "/pictures/product_cover/Gentelman's_Pride.jpg",
         "productLink": "/products/gentlemans-pride",
@@ -505,7 +497,7 @@
     },
     {
         "productName": "Aloe Body Wash",
-        "productDescription": "",
+        "productDescription": "Forever Aloe Body Wash je blag gel za tuširanje koji sadrži aloe veru i vitamin E. Ova bogata formula pomaže u održavanju prirodne vlažnosti kože, ostavljajući je čistom i glatkom.",
         "productPrice": "3,482,44RSD",
         "productImage": "/pictures/product_cover/Aloe_Body_Wash.jpg",
         "productLink": "/products/aloe-body-wash",
@@ -513,7 +505,7 @@
     },
     {
         "productName": "Aloe-Jojoba Shampoo",
-        "productDescription": "",
+        "productDescription": "Forever Aloe-Jojoba Shampoo je blag šampon koji sadrži aloe veru i jojoba ulje. Ova bogata formula pomaže u održavanju prirodne vlažnosti kose, ostavljajući je čistom i sjajnom.",
         "productPrice": "3,367,11RSD",
         "productImage": "/pictures/product_cover/Jojoba_Shampoo.jpg",
         "productLink": "/products/aloe-jojoba-shampoo",
@@ -521,7 +513,7 @@
     },
     {
         "productName": "Aloe-Jojoba Conditioner",
-        "productDescription": "",
+        "productDescription": "Forever Aloe-Jojoba Conditioner je blag regenerator koji sadrži aloe veru i jojoba ulje. Ova bogata formula pomaže u održavanju prirodne vlažnosti kose, ostavljajući je mekom i sjajnom.",
         "productPrice": "3,599,18RSD",
         "productImage": "/pictures/product_cover/Jojoba_Conditioner.jpg",
         "productLink": "/products/aloe-jojoba-conditioner",
@@ -529,7 +521,7 @@
     },
     {
         "productName": "Nourishing Hair Oil",
-        "productDescription": "",
+        "productDescription": "Forever Nourishing Hair Oil je ulje za negu kose koje sadrži aloe veru i vitamin E. Ova bogata formula pomaže u održavanju prirodne vlažnosti kose, ostavljajući je mekom i sjajnom.",
         "productPrice": "4,091,45RSD",
         "productImage": "/pictures/product_cover/Hair_Oil.png",
         "productLink": "/products/nourishing-hair-oil",
@@ -537,7 +529,7 @@
     },
     {
         "productName": "Forever Alofa",
-        "productDescription": "",
+        "productDescription": "Forever Alofa je ženski parfem koji kombinuje note cveća i voća. Ovaj elegantan parfem ostavlja trajan i sofisticiran miris.",
         "productPrice": "4,939,55RSD",
         "productImage": "/pictures/product_cover/Forever_Alofa.jpeg",
         "productLink": "/products/forever-alofa",
@@ -545,7 +537,7 @@
     },
     {
         "productName": "Forever Malosi",
-        "productDescription": "",
+        "productDescription": "Forever Malosi je muški parfem koji kombinuje drvene i začinske note. Ovaj moćan parfem ostavlja trajan i muževan miris.",
         "productPrice": "4,939,55RSD",
         "productImage": "/pictures/product_cover/Foreveer_Malosi.jpeg",
         "productLink": "/products/forever-malosi",
@@ -553,7 +545,7 @@
     },
     {
         "productName": "Logic by Forever™ Skin Care System",
-        "productDescription": "",
+        "productDescription": "Komplet Logic by Forever™ Skin Care System sadrži sve proizvode potrebne za kompletnu negu kože. Ovaj sistem uključuje čistač, tonik, hidratantnu kremu i serum za sveobuhvatnu negu kože.",
         "productPrice": "10,136,50RSD",
         "productImage": "/pictures/product_cover/Logic_Combo.jpeg",
         "productLink": "/products/logic-by-forever-skin-care-system",
@@ -561,7 +553,7 @@
     },
     {
         "productName": "Logic by Forever™ aloe gel cleanser",
-        "productDescription": "",
+        "productDescription": "Logic by Forever™ Aloe Gel Cleanser je blag gel za čišćenje kože koji sadrži aloe veru. Ova formula duboko čisti kožu bez njenog isušivanja, ostavljajući je čistom i svežom.",
         "productPrice": "3,686,38RSD",
         "productImage": "/pictures/product_cover/Aloe_Gel_Cleanser.jpeg",
         "productLink": "/products/logic-by-forever-aloe-gel-cleanser",
@@ -569,7 +561,7 @@
     },
     {
         "productName": "Logic by Forever™ balancing aloe essence",
-        "productDescription": "",
+        "productDescription": "Logic by Forever™ Balancing Aloe Essence je tonik koji uravnotežuje pH vrednost kože. Ova formula sadrži aloe veru i pomaže u pripremi kože za dalju negu.",
         "productPrice": "3,538,70RSD",
         "productImage": "/pictures/product_cover/Aloe_Balancing_Essence.jpeg",
         "productLink": "/products/logic-by-forever-balancing-aloe-essence",
@@ -577,7 +569,7 @@
     },
     {
         "productName": "Logic by Forever™ soothing gel moisturizer",
-        "productDescription": "",
+        "productDescription": "Logic by Forever™ Soothing Gel Moisturizer je hidratantni gel koji umiruje i hidrira kožu. Ova formula sadrži aloe veru i pomaže u održavanju prirodne vlažnosti kože.",
         "productPrice": "3,907,20RSD",
         "productImage": "/pictures/product_cover/Soothing_Gel_Moisturizer.jpeg",
         "productLink": "/products/logic-by-forever-soothing-gel-moisturizer",
@@ -585,7 +577,7 @@
     },
     {
         "productName": "Replenishing Skin Oil",
-        "productDescription": "",
+        "productDescription": "Forever Replenishing Skin Oil je ulje za negu kože koje sadrži aloe veru i vitamin E. Ova bogata formula pomaže u održavanju prirodne vlažnosti kože, ostavljajući je mekom i glatkom.",
         "productPrice": "4,459,95RSD",
         "productImage": "/pictures/product_cover/Skin_Oil.jpeg",
         "productLink": "/products/replenishing-skin-oil",
@@ -593,7 +585,7 @@
     },
     {
         "productName": "Aloe First",
-        "productDescription": "",
+        "productDescription": "Forever Aloe First je krema za negu kože koja sadrži aloe veru i vitamin E. Ova formula pomaže u umirivanju i hidrataciji kože, ostavljajući je mekom i glatkom.",
         "productPrice": "3,790,46RSD",
         "productImage": "/pictures/product_cover/Aloe_First.jpg",
         "productLink": "/products/aloe-first",
@@ -601,7 +593,7 @@
     },
     {
         "productName": "Aloe Propolis Crème",
-        "productDescription": "",
+        "productDescription": "Forever Aloe Propolis Crème je krema za negu kože koja sadrži aloe veru i propolis. Ova formula pomaže u umirivanju i hidrataciji kože, ostavljajući je mekom i glatkom.",
         "productPrice": "3,790,46RSD",
         "productImage": "/pictures/product_cover/Propolis_Creme.jpg",
         "productLink": "/products/aloe-propolis-crme",
@@ -609,7 +601,7 @@
     },
     {
         "productName": "Aloe Vera Gelly",
-        "productDescription": "",
+        "productDescription": "Forever Aloe Vera Gelly je gel za negu kože koji sadrži aloe veru. Ova formula pomaže u umirivanju i hidrataciji kože, ostavljajući je mekom i glatkom.",
         "productPrice": "2,849,53RSD",
         "productImage": "/pictures/product_cover/Aloe_Vera_Gelly.jpg",
         "productLink": "/products/aloe-vera-gelly",
@@ -617,7 +609,7 @@
     },
     {
         "productName": "Aloe Moisturizing Lotion",
-        "productDescription": "",
+        "productDescription": "Forever Aloe Moisturizing Lotion je losion za hidrataciju kože koji sadrži aloe veru. Ova formula pomaže u održavanju prirodne vlažnosti kože, ostavljajući je mekom i glatkom.",
         "productPrice": "2,849,53RSD",
         "productImage": "/pictures/product_cover/Aloe_Moisturizing_Lotion.jpg",
         "productLink": "/products/aloe-moisturizing-lotion",
@@ -625,7 +617,7 @@
     },
     {
         "productName": "Aloe heat Lotion",
-        "productDescription": "",
+        "productDescription": "Forever Aloe Heat Lotion je losion za negu kože koji sadrži aloe veru. Ova formula pomaže u umirivanju i hidrataciji kože, ostavljajući je mekom i glatkom.",
         "productPrice": "2,849,53RSD",
         "productImage": "/pictures/product_cover/Aloe_Heat_Lotion.png",
         "productLink": "/products/aloe-heat-lotion",
@@ -633,7 +625,7 @@
     },
     {
         "productName": "Aloe MSM Gel",
-        "productDescription": "",
+        "productDescription": "Forever Aloe MSM Gel je gel za negu kože koji sadrži aloe veru i MSM. Ova formula pomaže u umirivanju i hidrataciji kože, ostavljajući je mekom i glatkom.",
         "productPrice": "4,421,97RSD",
         "productImage": "/pictures/product_cover/Aloe_MSM_Gel.jpg",
         "productLink": "/products/aloe-msm-gel",
@@ -641,7 +633,7 @@
     },
     {
         "productName": "Forever Aloe Scrub",
-        "productDescription": "",
+        "productDescription": "Forever Aloe Scrub je piling za negu kože koji sadrži aloe veru. Ova formula pomaže u uklanjanju mrtvih ćelija kože, ostavljajući je glatkom i svežom.",
         "productPrice": "3,007,05RSD",
         "productImage": "/pictures/product_cover/Forever_Aloe_Scrub.png",
         "productLink": "/products/forever-aloe-scrub",
@@ -649,7 +641,7 @@
     },
     {
         "productName": "Aloe Sunscreen",
-        "productDescription": "",
+        "productDescription": "Forever Aloe Sunscreen je krema za zaštitu od sunca koja sadrži aloe veru. Ova formula pomaže u zaštiti kože od štetnih UV zraka, ostavljajući je zaštićenom i hidriranom.",
         "productPrice": "3,310,85RSD",
         "productImage": "/pictures/product_cover/Aloe_sunscreen.png",
         "productLink": "/products/aloe-sunscreen",
@@ -657,7 +649,7 @@
     },
     {
         "productName": "Aloe Body Lotion",
-        "productDescription": "",
+        "productDescription": "Forever Aloe Body Lotion je losion za hidrataciju tela koji sadrži aloe veru. Ova formula pomaže u održavanju prirodne vlažnosti kože, ostavljajući je mekom i glatkom.",
         "productPrice": "3,521,82RSD",
         "productImage": "/pictures/product_cover/Aloe_Body_lotion.jpg",
         "productLink": "/products/aloe-body-lotion",
@@ -665,7 +657,7 @@
     },
     {
         "productName": "Aloe Cooling Lotion",
-        "productDescription": "",
+        "productDescription": "Forever Aloe Cooling Lotion je losion za negu kože koji sadrži aloe veru. Ova formula pomaže u umirivanju i hidrataciji kože, ostavljajući je mekom i glatkom.",
         "productPrice": "2,323,50RSD",
         "productImage": "/pictures/product_cover/Aloe_Cooling_Lotion.png",
         "productLink": "/products/aloe-cooling-lotion",
@@ -673,7 +665,7 @@
     },
     {
         "productName": "Smoothing Exfoliator",
-        "productDescription": "",
+        "productDescription": "Forever Smoothing Exfoliator je piling za negu kože koji sadrži aloe veru. Ova formula pomaže u uklanjanju mrtvih ćelija kože, ostavljajući je glatkom i svežom.",
         "productPrice": "2,904,38RSD",
         "productImage": "/pictures/product_cover/Smoothing_Exfoliator.jpg",
         "productLink": "/products/smoothing-exfoliator",
@@ -681,7 +673,7 @@
     },
     {
         "productName": "Awakening Eye Cream",
-        "productDescription": "",
+        "productDescription": "Forever Awakening Eye Cream je krema za negu očne zone koja sadrži aloe veru. Ova formula pomaže u umirivanju i hidrataciji osetljive kože oko očiju, ostavljajući je mekom i glatkom.",
         "productPrice": "2,904,38RSD",
         "productImage": "/pictures/product_cover/Awakening_Eye_Cream.png",
         "productLink": "/products/awakening-eye-cream",
@@ -689,7 +681,7 @@
     },
     {
         "productName": "Aloe Activator",
-        "productDescription": "",
+        "productDescription": "Forever Aloe Activator je gel za negu kože koji sadrži aloe veru. Ova formula pomaže u umirivanju i hidrataciji kože, ostavljajući je mekom i glatkom.",
         "productPrice": "2,189,89RSD",
         "productImage": "/pictures/product_cover/Aloe_Activator.png",
         "productLink": "/products/aloe-activator",
@@ -697,7 +689,7 @@
     },
     {
         "productName": "Tightening Mask Powder",
-        "productDescription": "",
+        "productDescription": "Forever Tightening Mask Powder je maska za negu kože u prahu koja sadrži aloe veru. Ova formula pomaže u zatezanju i hidrataciji kože, ostavljajući je glatkom i svežom.",
         "productPrice": "2,917,04RSD",
         "productImage": "/pictures/product_cover/Mask_Powder.jpg",
         "productLink": "/products/tightening-mask-powder",
@@ -705,7 +697,7 @@
     },
     {
         "productName": "Hydrating Serum",
-        "productDescription": "",
+        "productDescription": "Forever Hydrating Serum je serum za intenzivnu hidrataciju kože koji sadrži aloe veru. Ova formula pomaže u dubokoj hidrataciji kože, ostavljajući je mekom i glatkom.",
         "productPrice": "5,417,76RSD",
         "productImage": "/pictures/product_cover/Hydrating_Serum.png",
         "productLink": "/products/hydrating-serum",
@@ -713,7 +705,7 @@
     },
     {
         "productName": "Protecting Day Lotion",
-        "productDescription": "",
+        "productDescription": "Forever Protecting Day Lotion je dnevna krema za zaštitu kože koja sadrži aloe veru. Ova formula pomaže u zaštiti i hidrataciji kože tokom dana, ostavljajući je mekom i glatkom.",
         "productPrice": "5,381,19RSD",
         "productImage": "/pictures/product_cover/Day_Lotion.png",
         "productLink": "/products/protecting-day-lotion",
@@ -721,7 +713,7 @@
     },
     {
         "productName": "Deep Moisturizing Cream",
-        "productDescription": "",
+        "productDescription": "Forever Deep Moisturizing Cream je krema za intenzivnu hidrataciju kože koja sadrži aloe veru. Ova formula pomaže u dubokoj hidrataciji kože, ostavljajući je mekom i glatkom.",
         "productPrice": "4,901,58RSD",
         "productImage": "/pictures/product_cover/Deep_Moisturizing_Cream.jpg",
         "productLink": "/products/deep-moisturizing-cream",
@@ -729,7 +721,7 @@
     },
     {
         "productName": "Refining Gel Mask",
-        "productDescription": "",
+        "productDescription": "Forever Refining Gel Mask je gel maska za negu kože koja sadrži aloe veru. Ova formula pomaže u umirivanju i hidrataciji kože, ostavljajući je glatkom i svežom.",
         "productPrice": "3,746,86RSD",
         "productImage": "/pictures/product_cover/Refining_Gel_Mask.jpg",
         "productLink": "/products/refining-gel-mask",
@@ -737,7 +729,7 @@
     },
     {
         "productName": "Aloe Bio Cellulose Mask",
-        "productDescription": "",
+        "productDescription": "Forever Aloe Bio Cellulose Mask je maska za negu kože od bio celuloze koja sadrži aloe veru. Ova formula pomaže u intenzivnoj hidrataciji kože, ostavljajući je mekom i glatkom.",
         "productPrice": "4,680,76RSD",
         "productImage": "/pictures/product_cover/Aloe_Bio_Cellulose_Mask.png",
         "productLink": "/products/aloe-bio-cellulose-mask",
@@ -745,7 +737,7 @@
     },
     {
         "productName": "Infinite Skin Care Kit",
-        "productDescription": "",
+        "productDescription": "Forever Infinite Skin Care Kit je komplet za negu kože koji sadrži sve proizvode iz Infinite serije. Ovaj sistem uključuje čistač, serum i kremu za sveobuhvatnu negu kože.",
         "productPrice": "27,842,66RSD",
         "productImage": "/pictures/product_cover/Infinite_Skin_Care_Kit.jpeg",
         "productLink": "/products/infinite-skin-care-kit",
@@ -753,7 +745,7 @@
     },
     {
         "productName": "Infinite Hydrating Cleanser",
-        "productDescription": "",
+        "productDescription": "Forever Infinite Hydrating Cleanser je hidratantni čistač za negu kože koji sadrži aloe veru. Ova formula duboko čisti kožu bez njenog isušivanja, ostavljajući je čistom i hidriranom.",
         "productPrice": "4,182,87RSD",
         "productImage": "/pictures/product_cover/Infinite_Hydrating_Cleanser.png",
         "productLink": "/products/infinite-hydrating-cleanser",
@@ -761,7 +753,7 @@
     },
     {
         "productName": "Infinite Firming Serum",
-        "productDescription": "",
+        "productDescription": "Forever Infinite Firming Serum je serum za zatezanje kože koji sadrži aloe veru. Ova formula pomaže u zatezanju i hidrataciji kože, ostavljajući je glatkom i zategnutom.",
         "productPrice": "8,272,91RSD",
         "productImage": "/pictures/product_cover/Infinite_Firming_Serum.png",
         "productLink": "/products/infinite-firming-serum",
@@ -769,7 +761,7 @@
     },
     {
         "productName": "Infinite Restoring Crème",
-        "productDescription": "",
+        "productDescription": "Forever Infinite Restoring Crème je krema za regeneraciju kože koja sadrži aloe veru. Ova formula pomaže u obnavljanju i hidrataciji kože, ostavljajući je mekom i glatkom.",
         "productPrice": "9,227,91RSD",
         "productImage": "/pictures/product_cover/Infinite_Restoring_Creme.png",
         "productLink": "/products/infinite-restoring-crme",
@@ -777,7 +769,7 @@
     },
     {
         "productName": "Forever Firming Complex",
-        "productDescription": "",
+        "productDescription": "Forever Firming Complex je kompleks za zatezanje kože koji sadrži aloe veru. Ova formula pomaže u zatezanju i hidrataciji kože, ostavljajući je glatkom i zategnutom.",
         "productPrice": "8,232,12RSD",
         "productImage": "/pictures/product_cover/Forever_firming_Complex.png",
         "productLink": "/products/forever-firming-complex",
@@ -785,7 +777,7 @@
     },
     {
         "productName": "DX4",
-        "productDescription": "",
+        "productDescription": "Forever DX4 je dodatak ishrani koji podržava zdravlje zglobova. Ova formula sadrži glukozamin, hondroitin i MSM za podršku zglobovima i pokretljivosti.",
         "productPrice": "21,675,25RSD",
         "productImage": "/pictures/product_cover/D_X_4.jpeg",
         "productLink": "/products/dx4",
@@ -793,7 +785,7 @@
     },
     {
         "productName": "C9 Aloe Vera Gel - Ultra Vanilla",
-        "productDescription": "",
+        "productDescription": "Forever C9 Aloe Vera Gel - Ultra Vanilla je proteinski napitak sa ukusom vanile koji sadrži aloe veru. Ova formula pomaže u podršci telesnoj težini i energetskim potrebama.",
         "productPrice": "19,398,16RSD",
         "productImage": "/pictures/product_cover/C9_Gel_Vanilla.jpeg",
         "productLink": "/products/c9-aloe-vera-gel---ultra-vanilla",
@@ -801,7 +793,7 @@
     },
     {
         "productName": "C9 Aloe Vera Gel - Ultra Chocolate",
-        "productDescription": "",
+        "productDescription": "Forever C9 Aloe Vera Gel - Ultra Chocolate je proteinski napitak sa ukusom čokolade koji sadrži aloe veru. Ova formula pomaže u podršci telesnoj težini i energetskim potrebama.",
         "productPrice": "19,398,16RSD",
         "productImage": "/pictures/product_cover/C9_Gel_chocolate.jpeg",
         "productLink": "/products/c9-aloe-vera-gel---ultra-chocolate",
@@ -809,7 +801,7 @@
     },
     {
         "productName": "C9 Berry - Ultra Vanilla",
-        "productDescription": "",
+        "productDescription": "Forever C9 Berry - Ultra Vanilla je proteinski napitak sa ukusom vanile i bobičastog voća koji sadrži aloe veru. Ova formula pomaže u podršci telesnoj težini i energetskim potrebama.",
         "productPrice": "19,398,16RSD",
         "productImage": "/pictures/product_cover/C9_Berry_Vanilla.jpeg",
         "productLink": "/products/c9-berry---ultra-vanilla",
@@ -817,7 +809,7 @@
     },
     {
         "productName": "C9 Berry - Ultra Chocolate",
-        "productDescription": "",
+        "productDescription": "Forever C9 Berry - Ultra Chocolate je proteinski napitak sa ukusom čokolade i bobičastog voća koji sadrži aloe veru. Ova formula pomaže u podršci telesnoj težini i energetskim potrebama.",
         "productPrice": "19,398,16RSD",
         "productImage": "/pictures/product_cover/C9_Berry_Chocolate.jpeg",
         "productLink": "/products/c9-berry---ultra-chocolate",
@@ -825,7 +817,7 @@
     },
     {
         "productName": "C9 Peaches - Ultra Vanilla",
-        "productDescription": "",
+        "productDescription": "Forever C9 Peaches - Ultra Vanilla je proteinski napitak sa ukusom vanile i breskve koji sadrži aloe veru. Ova formula pomaže u podršci telesnoj težini i energetskim potrebama.",
         "productPrice": "19,398,16RSD",
         "productImage": "/pictures/product_cover/C9_Peaches_Vanilla.jpeg",
         "productLink": "/products/c9-peaches---ultra-vanilla",
@@ -833,7 +825,7 @@
     },
     {
         "productName": "C9 Peaches - Ultra Chocolate",
-        "productDescription": "",
+        "productDescription": "Forever C9 Peaches - Ultra Chocolate je proteinski napitak sa ukusom čokolade i breskve koji sadrži aloe veru. Ova formula pomaže u podršci telesnoj težini i energetskim potrebama.",
         "productPrice": "19,398,16RSD",
         "productImage": "/pictures/product_cover/C9_Peaches_Chocolate.jpeg",
         "productLink": "/products/c9-peaches---ultra-chocolate",
@@ -841,7 +833,7 @@
     },
     {
         "productName": "F15 Beginner 1&2 Vanilla",
-        "productDescription": "",
+        "productDescription": "Forever F15 Beginner 1&2 Vanilla je proteinski program sa ukusom vanile za početnike. Ovaj program pomaže u postizanju ciljeva u vezi sa telesnom težinom i energetskim potrebama.",
         "productPrice": "25,153,47RSD",
         "productImage": "/pictures/product_cover/F15_Beginner_Vanilla.jpeg",
         "productLink": "/products/f15-beginner-12-vanilla",
@@ -849,7 +841,7 @@
     },
     {
         "productName": "F15 Beginner 1&2 Chocolate",
-        "productDescription": "",
+        "productDescription": "Forever F15 Beginner 1&2 Chocolate je proteinski program sa ukusom čokolade za početnike. Ovaj program pomaže u postizanju ciljeva u vezi sa telesnom težinom i energetskim potrebama.",
         "productPrice": "25,153,47RSD",
         "productImage": "/pictures/product_cover/F15_Beginner_Chocolate.jpeg",
         "productLink": "/products/f15-beginner-12-chocolate",
@@ -857,7 +849,7 @@
     },
     {
         "productName": "F15 Intermediate 1&2 Vanilla",
-        "productDescription": "",
+        "productDescription": "Forever F15 Intermediate 1&2 Vanilla je proteinski program sa ukusom vanile za srednje napredne. Ovaj program pomaže u postizanju ciljeva u vezi sa telesnom težinom i energetskim potrebama.",
         "productPrice": "25,153,47RSD",
         "productImage": "/pictures/product_cover/F15_Beginner_Vanilla.jpeg",
         "productLink": "/products/f15-intermediate-12-vanilla",
@@ -865,7 +857,7 @@
     },
     {
         "productName": "F15 Intermediate 1&2 Chocolate",
-        "productDescription": "",
+        "productDescription": "Forever F15 Intermediate 1&2 Chocolate je proteinski program sa ukusom čokolade za srednje napredne. Ovaj program pomaže u postizanju ciljeva u vezi sa telesnom težinom i energetskim potrebama.",
         "productPrice": "25,153,47RSD",
         "productImage": "/pictures/product_cover/F15_Beginner_Chocolate.jpeg",
         "productLink": "/products/f15-intermediate-12-chocolate",
@@ -873,7 +865,7 @@
     },
     {
         "productName": "F15 Advanced 1&2 Vanilla",
-        "productDescription": "",
+        "productDescription": "Forever F15 Advanced 1&2 Vanilla je proteinski program sa ukusom vanile za napredne. Ovaj program pomaže u postizanju ciljeva u vezi sa telesnom težinom i energetskim potrebama.",
         "productPrice": "25,153,47RSD",
         "productImage": "/pictures/product_cover/F15_Beginner_Vanilla.jpeg",
         "productLink": "/products/f15-advanced-12-vanilla",
@@ -881,7 +873,7 @@
     },
     {
         "productName": "F15 Advanced 1&2 Chocolate",
-        "productDescription": "",
+        "productDescription": "Forever F15 Advanced 1&2 Chocolate je proteinski program sa ukusom čokolade za napredne. Ovaj program pomaže u postizanju ciljeva u vezi sa telesnom težinom i energetskim potrebama.",
         "productPrice": "25,153,47RSD",
         "productImage": "/pictures/product_cover/F15_Beginner_Chocolate.jpeg",
         "productLink": "/products/f15-advanced-12-chocolate",
@@ -889,7 +881,7 @@
     },
     {
         "productName": "Vital⁵ - Aloe Vera Gel",
-        "productDescription": "",
+        "productDescription": "Forever Vital⁵ - Aloe Vera Gel je paket od 5 esencijalnih proizvoda koji uključuje Aloe Vera Gel. Ovaj paket pruža sveobuhvatnu podršku zdravlju i dobrobiti.",
         "productPrice": "39,661,31RSD",
         "productImage": "/pictures/product_cover/Vital5_Gel.jpeg",
         "productLink": "/products/vital---aloe-vera-gel",
@@ -897,7 +889,7 @@
     },
     {
         "productName": "Vital⁵ - Berry Nectar",
-        "productDescription": "",
+        "productDescription": "Forever Vital⁵ - Berry Nectar je paket od 5 esencijalnih proizvoda koji uključuje Berry Nectar. Ovaj paket pruža sveobuhvatnu podršku zdravlju i dobrobiti.",
         "productPrice": "39,661,31RSD",
         "productImage": "/pictures/product_cover/Vital5_Berry_Nectar.jpeg",
         "productLink": "/products/vital---berry-nectar",
@@ -905,7 +897,7 @@
     },
     {
         "productName": "Vital⁵ - Aloe Peaches",
-        "productDescription": "",
+        "productDescription": "Forever Vital⁵ - Aloe Peaches je paket od 5 esencijalnih proizvoda koji uključuje Aloe Peaches. Ovaj paket pruža sveobuhvatnu podršku zdravlju i dobrobiti.",
         "productPrice": "39,661,31RSD",
         "productImage": "/pictures/product_cover/Vital5_Peaches.jpeg",
         "productLink": "/products/vital---aloe-peaches",
@@ -913,7 +905,7 @@
     },
     {
         "productName": "Vital⁵ - Freedom",
-        "productDescription": "",
+        "productDescription": "Forever Vital⁵ - Freedom je paket od 5 esencijalnih proizvoda koji uključuje Freedom. Ovaj paket pruža sveobuhvatnu podršku zdravlju i dobrobiti.",
         "productPrice": "45,807,62RSD",
         "productImage": "/pictures/product_cover/Vital5_Freedom.jpeg",
         "productLink": "/products/vital---freedom",
@@ -921,7 +913,7 @@
     },
     {
         "productName": "A Touch of Forever",
-        "productDescription": "",
+        "productDescription": "Forever A Touch of Forever je luksuzni poklon set koji sadrži odabrane proizvode za negu i dobrobit. Ovaj set je idealan poklon za posebne prilike.",
         "productPrice": "84,430,95RSD",
         "productImage": "/pictures/product_cover/Touch_of_Forever.jpg",
         "productLink": "/products/a-touch-of-forever",
@@ -929,7 +921,7 @@
     },
     {
         "productName": "Start Your Journey Pack",
-        "productDescription": "",
+        "productDescription": "Forever Start Your Journey Pack je početni paket za nove korisnike. Ovaj paket uključuje osnovne proizvode za upoznavanje sa Forever proizvodima.",
         "productPrice": "59,366,08RSD",
         "productImage": "/pictures/product_cover/Start_Your_Journey_Pack.jpg",
         "productLink": "/products/start-your-journey-pack",
@@ -937,7 +929,7 @@
     },
     {
         "productName": "Start Your Journey Pack - Vanilla",
-        "productDescription": "",
+        "productDescription": "Forever Start Your Journey Pack - Vanilla je početni paket sa ukusom vanile za nove korisnike. Ovaj paket uključuje osnovne proizvode za upoznavanje sa Forever proizvodima.",
         "productPrice": "60,361,87RSD",
         "productImage": "/pictures/product_cover/Start_Your_Journey_Pack.jpg",
         "productLink": "/products/start-your-journey-pack---vanilla",
@@ -945,7 +937,7 @@
     },
     {
         "productName": "Start Your Journey Pack - Chocolate",
-        "productDescription": "",
+        "productDescription": "Forever Start Your Journey Pack - Chocolate je početni paket sa ukusom čokolade za nove korisnike. Ovaj paket uključuje osnovne proizvode za upoznavanje sa Forever proizvodima.",
         "productPrice": "60,361,87RSD",
         "productImage": "/pictures/product_cover/Start_Your_Journey_Pack.jpg",
         "productLink": "/products/start-your-journey-pack---chocolate",
@@ -953,7 +945,7 @@
     },
     {
         "productName": "Aloe Body Wash & Lotion Bundle",
-        "productDescription": "",
+        "productDescription": "Forever Aloe Body Wash & Lotion Bundle je set koji uključuje gel za tuširanje i losion za telo. Ovaj set pruža kompletnu negu tela sa aloe verom.",
         "productPrice": "7,005,67RSD",
         "productImage": "/pictures/product_cover/Aloe_Body_Wash_&_Lotion.png",
         "productLink": "/products/aloe-body-wash--lotion-bundle",
@@ -961,7 +953,7 @@
     },
     {
         "productName": "Set Parfema",
-        "productDescription": "",
+        "productDescription": "Forever Set Parfema je set parfema koji uključuje muški i ženski parfem. Ovaj set je idealan poklon za ljubitelje parfema.",
         "productPrice": "9,879,11RSD",
         "productImage": "/pictures/product_cover/Parfem_Set.png",
         "productLink": "/products/set-parfema",
