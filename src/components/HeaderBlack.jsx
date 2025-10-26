@@ -1,5 +1,5 @@
 "use client"
-import { useEffect, useId, useState } from "react"
+import { useEffect, useId, useState, Suspense } from "react"
 import { SearchIcon } from "lucide-react"
 
 import Logo from "@/components/logo"
@@ -26,21 +26,18 @@ const navigationLinks = [
   { href: "/contact", label: "Kontakt" },
 ]
 
-export default function HeaderBlack() {
-  const id = useId()
+function HeaderSearch() {
   const pathname = usePathname()
   const router = useRouter()
   const searchParams = useSearchParams()
   const visibleOnProducts = pathname?.startsWith('/products')
   const [searchText, setSearchText] = useState("")
 
-  // Initialize from URL on mount and when URL changes (e.g. back/forward)
   useEffect(() => {
     const q = searchParams.get('q') || ''
     setSearchText(q)
   }, [searchParams])
 
-  // Debounced update of URL when typing
   useEffect(() => {
     if (!visibleOnProducts) return
     const t = setTimeout(() => {
@@ -52,6 +49,37 @@ export default function HeaderBlack() {
     }, 250)
     return () => clearTimeout(t)
   }, [searchText, visibleOnProducts, pathname, router, searchParams])
+
+  if (!visibleOnProducts) return null
+
+  return (
+    <>
+      {/* Desktop */}
+      <div className="items-center gap-2 max-lg:hidden flex">
+        <div className="w-72">
+          <Input
+            value={searchText}
+            onChange={(e) => setSearchText(e.target.value)}
+            placeholder="Pretraga proizvoda..."
+            aria-label="Pretraga proizvoda"
+          />
+        </div>
+      </div>
+      {/* Mobile */}
+      <div className="lg:hidden pb-3 px-1">
+        <Input
+          value={searchText}
+          onChange={(e) => setSearchText(e.target.value)}
+          placeholder="Pretraga proizvoda..."
+          aria-label="Pretraga proizvoda"
+        />
+      </div>
+    </>
+  )
+}
+
+export default function HeaderBlack() {
+  const id = useId()
 
   return (
     <header className="max-w-6xl px-4 border-b lg:px-6 w-[95vw] mx-auto sticky top-0 min-h-16 h-fit z-999 bg-primary-white">
@@ -122,31 +150,11 @@ export default function HeaderBlack() {
           </div>
         </div>
         {/* Right side (desktop) */}
-        <div className="items-center gap-2 max-lg:hidden flex">
-          {visibleOnProducts && (
-            <div className="w-72">
-              <Input
-                value={searchText}
-                onChange={(e) => setSearchText(e.target.value)}
-                placeholder="Pretraga proizvoda..."
-                aria-label="Pretraga proizvoda"
-              />
-            </div>
-          )}
-        </div>
+        <div className="items-center gap-2 max-lg:hidden flex" />
       </div>
-
-      {/* Mobile search row */}
-      {visibleOnProducts && (
-        <div className="lg:hidden pb-3 px-1">
-          <Input
-            value={searchText}
-            onChange={(e) => setSearchText(e.target.value)}
-            placeholder="Pretraga proizvoda..."
-            aria-label="Pretraga proizvoda"
-          />
-        </div>
-      )}
+      <Suspense fallback={null}>
+        <HeaderSearch />
+      </Suspense>
     </header>
   );
 }
