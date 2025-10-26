@@ -1,5 +1,5 @@
 'use client'
-import { useState, useEffect } from 'react';
+import { useState, useEffect, Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
 import products from '../../data/allProducts.json';
 import Dashboard from '@/components/products/Dashboard';
@@ -30,21 +30,7 @@ export default function Products() {
         categorizedProducts = products;
     }
 
-    // pretraga po nazivu / opisu (case-insensitive, bez dijakritika)
-    const normalize = (s = "") => s
-        .toString()
-        .toLowerCase()
-        .normalize('NFD')
-        .replace(/[\u0300-\u036f]/g, '');
-    const searchParams = useSearchParams();
-    const q = normalize(searchParams.get('q') || '').trim();
-    if (q) {
-        categorizedProducts = categorizedProducts.filter(p => {
-            const name = normalize(p.productName);
-            const desc = normalize(p.productDescription || "");
-            return name.includes(q) || desc.includes(q);
-        });
-    }
+    // search filtering handled in Suspense-wrapped child component below
 
     function modifyAllowedPriceRange(productsList = products) {
         let tempMin = Infinity;
@@ -161,7 +147,27 @@ export default function Products() {
                 isOpen={isDashboardOpen}
                 setIsOpen={setIsDashboardOpen}
             />
-            <ProductsContainer products={categorizedProducts} />
+            <Suspense fallback={<ProductsContainer products={categorizedProducts} />}>
+                <SearchFilteredProducts products={categorizedProducts} />
+            </Suspense>
         </main>
     )
+}
+
+function SearchFilteredProducts({ products }) {
+    const searchParams = useSearchParams();
+    const normalize = (s = "") => s
+        .toString()
+        .toLowerCase()
+        .normalize('NFD')
+        .replace(/[\u0300-\u036f]/g, '');
+    const q = normalize(searchParams.get('q') || '').trim();
+    const filtered = q
+        ? products.filter(p => {
+            const name = normalize(p.productName);
+            const desc = normalize(p.productDescription || "");
+            return name.includes(q) || desc.includes(q);
+        })
+        : products;
+    return <ProductsContainer products={filtered} />
 }
