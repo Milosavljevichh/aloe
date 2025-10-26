@@ -6,8 +6,8 @@ import { Button } from "@/components/ui/button"
 import { Label } from "@/components/ui/label"
 import { Slider } from "@/components/ui/slider"
 
-export default function PriceSlider({changePriceRange, maxRange, resetFilters}) {
-  const min_price = 300
+export default function PriceSlider({changePriceRange, minRange, maxRange, resetFilters}) {
+  const min_price = minRange
   const max_price = maxRange
   const [value, setValue] = useState([min_price, max_price])
 

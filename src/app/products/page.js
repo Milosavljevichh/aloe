@@ -10,8 +10,8 @@ export default function Products() {
     const [filter, setFilter] = useState("");
     const [priceRange, setPriceRange] = useState([])
     const [isDashboardOpen, setIsDashboardOpen] = useState(false);
-
-    const maxRange = 10000;
+    const [minRange, setMinRange] = useState(0);
+    const [maxRange, setMaxRange] = useState(15000);
 
     //izdvajanje svake kategorije samo jednom
     const categories = Array.from(new Set(products.map(product => product.productCategory)));
@@ -26,9 +26,42 @@ export default function Products() {
     }
 
     //vadimo samo broj iz cene
-    function parsePrice(priceStr) {
-        const cleanStr = priceStr.replace(/[^\d.]/g, '').replace(/,/g, '');
-        return parseFloat(cleanStr);
+    // Podržava formate poput: "4,848,13RSD", "3,364RSD", "1375,54RSD", kao i kombinacije sa tačkama.
+    function parsePrice(priceStr = '') {
+        if (typeof priceStr !== 'string') return NaN;
+        // Zadrži samo cifre, zarez i tačku (ukloni RSD i razmake)
+        const raw = priceStr.replace(/[^\d.,]/g, '');
+        if (!raw) return NaN;
+
+        const lastComma = raw.lastIndexOf(',');
+        const lastDot = raw.lastIndexOf('.');
+
+        // Odredi decimalni separator (ako postoji) – pretpostavi da poslednji separator deli decimale (2 cifre)
+        let decimalSep = null;
+        if (lastComma !== -1 && lastDot !== -1) {
+            // Ako postoje oba, poslednji separator pobedjuje
+            decimalSep = lastComma > lastDot ? ',' : '.';
+        } else if (lastComma !== -1) {
+            const decimalsLen = raw.length - lastComma - 1;
+            if (decimalsLen === 2) decimalSep = ',';
+        } else if (lastDot !== -1) {
+            const decimalsLen = raw.length - lastDot - 1;
+            if (decimalsLen === 2) decimalSep = '.';
+        }
+
+        // Ukloni sve separatore da dobijemo samo cifre
+        const digits = raw.replace(/[.,]/g, '');
+        if (!digits) return NaN;
+
+        // Ako imamo decimale (2 cifre), podeli poslednje 2 cifre kao decimale
+        if (decimalSep) {
+            const intPart = digits.slice(0, -2) || '0';
+            const decPart = digits.slice(-2);
+            return parseFloat(intPart) + parseFloat(decPart) / 100;
+        }
+
+        // Nema decimala – tretiraj kao ceo broj
+        return parseInt(digits, 10);
     }
 
     if (priceRange.length === 2) {
@@ -69,7 +102,7 @@ export default function Products() {
         setFilter("")
         setPriceRange([])
     }
-
+    
     return (
         <main className="max-w-6xl px-4 bg-primary-white relative mx-auto flex gap-4 min-h-full">
             <button
@@ -82,6 +115,7 @@ export default function Products() {
             <Dashboard
                 selectedFilter={filter}
                 resetFilters={resetFilters}
+                minRange={minRange}
                 maxRange={maxRange}
                 categories={categories}
                 selectCategory={selectCategory}

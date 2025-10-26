@@ -9,8 +9,8 @@ export default function ProductCard({name, description, category, image, price})
             <div className="card w-full  bg-primary-white border border-gray-300 shadow-sm">
                 <figure>
                     <img
-                        src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-                        // src={image}
+                        // src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                        src={image}
                         className="border border-b-gray-300"
                         alt={name} />
                 </figure>
