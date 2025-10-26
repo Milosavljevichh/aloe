@@ -9,6 +9,7 @@ export default function Products() {
     const [selectedCategory, setSelectedCategory] = useState("");
     const [filter, setFilter] = useState("");
     const [priceRange, setPriceRange] = useState([])
+    const [searchQuery, setSearchQuery] = useState("");
     const [isDashboardOpen, setIsDashboardOpen] = useState(false);
     const [minRange, setMinRange] = useState(Infinity);
     const [maxRange, setMaxRange] = useState(0);
@@ -27,6 +28,21 @@ export default function Products() {
         categorizedProducts = products.filter(product => product.productCategory === selectedCategory)
     } else {
         categorizedProducts = products;
+    }
+
+    // pretraga po nazivu / opisu (case-insensitive, bez dijakritika)
+    const normalize = (s = "") => s
+        .toString()
+        .toLowerCase()
+        .normalize('NFD')
+        .replace(/[\u0300-\u036f]/g, '');
+    const q = normalize(searchQuery).trim();
+    if (q) {
+        categorizedProducts = categorizedProducts.filter(p => {
+            const name = normalize(p.productName);
+            const desc = normalize(p.productDescription || "");
+            return name.includes(q) || desc.includes(q);
+        });
     }
 
     function modifyAllowedPriceRange(productsList = products) {
@@ -141,6 +157,8 @@ export default function Products() {
                 selectFilter={selectFilter}
                 selectedCategory={selectedCategory}
                 changePriceRange={changePriceRange}
+                searchQuery={searchQuery}
+                setSearchQuery={setSearchQuery}
                 isOpen={isDashboardOpen}
                 setIsOpen={setIsDashboardOpen}
             />

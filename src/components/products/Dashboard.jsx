@@ -1,8 +1,9 @@
 import Select from "../PriceSelect";
 import PriceSlider from "../PriceSlider";
 import { Button } from '@/components/ui/button';
+import { Input } from '@/components/ui/input';
 
-export default function Dashboard({ selectedFilter, categories, selectCategory, selectFilter, selectedCategory, changePriceRange, minRange,maxRange, resetFilters, isOpen, setIsOpen }) {
+export default function Dashboard({ selectedFilter, categories, selectCategory, selectFilter, selectedCategory, changePriceRange, minRange, maxRange, resetFilters, isOpen, setIsOpen, searchQuery, setSearchQuery }) {
 
     const filterOptions = [{
         text: 'Bez filtera',
@@ -21,9 +22,9 @@ export default function Dashboard({ selectedFilter, categories, selectCategory, 
         <aside
             className={`
             bg-primary-white border md:border-none md:shadow-none z-40 
-            fixed top-0 left-0 h-full w-64 p-4 transform transition-transform duration-300 
-            ${isOpen ? 'translate-x-0 shadow-sm' : '-translate-x-full'} 
-            md:translate-x-0 md:static md:top-16 md:h-fit md:w-48 md:p-0 md:transform-none md:sticky
+            fixed top-0 left-0 h-full w-64 px-4 py-20 transform transition-transform duration-300
+            ${isOpen ? 'translate-x-0 shadow-sm  overflow-y-auto' : '-translate-x-full'} 
+            md:translate-x-0 md:top-16 md:h-fit md:w-48 md:p-0 md:transform-none md:sticky
         `}
         >
             <div className="flex justify-between items-center md:hidden mb-4">
@@ -34,6 +35,17 @@ export default function Dashboard({ selectedFilter, categories, selectCategory, 
                 >
                     ✕
                 </button>
+            </div>
+
+            {/* Search */}
+            <div className="my-4">
+                <Input
+                    type="text"
+                    value={searchQuery}
+                    onChange={(e) => setSearchQuery(e.target.value)}
+                    placeholder="Pretraga proizvoda..."
+                    aria-label="Pretraga proizvoda"
+                />
             </div>
 
             <ul className="divide-y divide-gray-200 border border-gray-200 shadow-sm mb-4">
