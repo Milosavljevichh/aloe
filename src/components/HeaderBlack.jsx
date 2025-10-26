@@ -53,20 +53,8 @@ function HeaderSearch() {
   if (!visibleOnProducts) return null
 
   return (
-    <>
-      {/* Desktop */}
-      <div className="items-center gap-2 max-lg:hidden flex">
-        <div className="w-72">
-          <Input
-            value={searchText}
-            onChange={(e) => setSearchText(e.target.value)}
-            placeholder="Pretraga proizvoda..."
-            aria-label="Pretraga proizvoda"
-          />
-        </div>
-      </div>
-      {/* Mobile */}
-      <div className="lg:hidden pb-3 px-1">
+    <div className="items-center gap-2 flex min-w-0">
+      <div className="w-36 sm:w-48 md:w-56 lg:w-72 min-w-0">
         <Input
           value={searchText}
           onChange={(e) => setSearchText(e.target.value)}
@@ -74,7 +62,7 @@ function HeaderSearch() {
           aria-label="Pretraga proizvoda"
         />
       </div>
-    </>
+    </div>
   )
 }
 
@@ -147,14 +135,15 @@ export default function HeaderBlack() {
                 ))}
               </NavigationMenuList>
             </NavigationMenu>
+            {/* Inline search next to navigation (desktop) */}
+            <Suspense fallback={null}>
+              <HeaderSearch />
+            </Suspense>
           </div>
         </div>
-        {/* Right side (desktop) */}
+        {/* Right side (desktop) intentionally left empty */}
         <div className="items-center gap-2 max-lg:hidden flex" />
       </div>
-      <Suspense fallback={null}>
-        <HeaderSearch />
-      </Suspense>
     </header>
   );
 }

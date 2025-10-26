@@ -27,6 +27,7 @@ export default function Footer() {
                     <img src="/logo-white.svg" alt="Forever Living logo" className="mb-4 mx-auto lg:mx-0" />
                     <p className="text-sm text-gray-300 w-full lg:max-w-sm  font-text text-center lg:text-left ">
                         Internet prodavnica kompanije Forever Living Products doo Beograd je jedina zvanična prodavnica artikala sa obeležjima Forever Living Products International.
+                        Tvoje telo zna da priroda leči
                     </p>
                 </div>
 
