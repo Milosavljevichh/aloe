@@ -1,5 +1,5 @@
 'use client'
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import products from '../../data/allProducts.json';
 import Dashboard from '@/components/products/Dashboard';
 import ProductsContainer from '@/components/products/ProductsContainer';
@@ -10,14 +10,18 @@ export default function Products() {
     const [filter, setFilter] = useState("");
     const [priceRange, setPriceRange] = useState([])
     const [isDashboardOpen, setIsDashboardOpen] = useState(false);
-    const [minRange, setMinRange] = useState(0);
-    const [maxRange, setMaxRange] = useState(15000);
+    const [minRange, setMinRange] = useState(Infinity);
+    const [maxRange, setMaxRange] = useState(0);
+
 
     //izdvajanje svake kategorije samo jednom
     const categories = Array.from(new Set(products.map(product => product.productCategory)));
 
     let categorizedProducts;
 
+    useEffect(() => {
+        modifyAllowedPriceRange(categorizedProducts);
+    }, [selectedCategory]);
     //prikazujemo samo proizvode iz izabrane kategorije
     if (selectedCategory) {
         categorizedProducts = products.filter(product => product.productCategory === selectedCategory)
@@ -25,6 +29,21 @@ export default function Products() {
         categorizedProducts = products;
     }
 
+    function modifyAllowedPriceRange(productsList = products) {
+        let tempMin = Infinity;
+        let tempMax = 0;
+        console.log(productsList)
+        productsList.filter(product => {
+            if (parsePrice(product.productPrice) > tempMax) {
+                tempMax = parsePrice(product.productPrice)
+            }
+            if (parsePrice(product.productPrice) < tempMin) {
+                tempMin = parsePrice(product.productPrice)
+            }
+        });
+        setMinRange(tempMin)
+        setMaxRange(tempMax)
+    }
     //vadimo samo broj iz cene
     // Podržava formate poput: "4,848,13RSD", "3,364RSD", "1375,54RSD", kao i kombinacije sa tačkama.
     function parsePrice(priceStr = '') {

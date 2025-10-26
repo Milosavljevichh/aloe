@@ -1,18 +1,20 @@
 "use client"
 
-import { useState } from "react"
+import { useState, useEffect, use } from "react"
 
 import { Button } from "@/components/ui/button"
 import { Label } from "@/components/ui/label"
 import { Slider } from "@/components/ui/slider"
 
 export default function PriceSlider({changePriceRange, minRange, maxRange, resetFilters}) {
-  const min_price = minRange
-  const max_price = maxRange
-  const [value, setValue] = useState([min_price, max_price])
+  const [value, setValue] = useState([minRange, maxRange])
 
+  useEffect(() => {
+    setValue([minRange, maxRange])
+  }, [minRange, maxRange])
+  
   const formatPrice = (price) => {
-    return price === max_price
+    return price === maxRange
       ? `${price.toLocaleString()}+ RSD`
       : `${price.toLocaleString()} RSD`;
   }
@@ -30,14 +32,14 @@ export default function PriceSlider({changePriceRange, minRange, maxRange, reset
         <Slider
           value={value}
           onValueChange={setValue}
-          min={min_price}
-          max={max_price}
+          min={minRange}
+          max={maxRange}
           aria-label="Price range slider" />
           <div className="flex justify-between gap-4">
           <Button onClick={()=>applyPriceRange()} variant="outline" className="hover:cursor-pointer">Primeni</Button>
           <Button onClick={()=>{
             resetFilters()
-            setValue([min_price, max_price])
+            setValue([minRange, maxRange])
             }} variant="outline" className="hover:cursor-pointer border-[#DC2525] text-[#DC2525] hover:text-primary-white hover:bg-[#DC2525] transition">Poništi</Button>
           </div>
       </div>
